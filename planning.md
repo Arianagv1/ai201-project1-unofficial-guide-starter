@@ -107,24 +107,7 @@ There are other models that do have fast speeds and are high quality, for exampl
 
 ## Architecture
 
-graph LR
-    A["📄 Document Ingestion"] -->|Raw text from<br/>10 sources| B["✂️ Chunking"]
-    B -->|Semantic chunks<br/>800 chars + 200 overlap| C["🔢 Embedding"]
-    C -->|all-MiniLM-L6-v2<br/>384 dimensions| D["🗄️ Vector Store"]
-    D -->|ChromaDB<br/>Cosine similarity| E["🔍 Retrieval"]
-    E -->|top-k=5-8<br/>chunks + metadata| F["🧠 Generation"]
-    F -->|Groq Llama 3.3 70B| G["💬 Student Answer"]
-    
-    H["Sources:<br/>• UIC Catalog<br/>• Grade Distribution<br/>• Reddit<br/>• RateMyProfessor<br/>• LinkedIn"] -.->|Raw documents| A
-    
-    style A fill:#e1f5ff
-    style B fill:#fff3e0
-    style C fill:#f3e5f5
-    style D fill:#e8f5e9
-    style E fill:#fce4ec
-    style F fill:#fff9c4
-    style G fill:#f1f8e9
-    style H fill:#eeeeee
+![Pipeline Diagram](codepath_proj1_pipeline.png)
 
 ---
 
