@@ -11,6 +11,8 @@
 
 <!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
 
+I have chosen Data Science Courses for UIC DS students since it's a relatively new program in the CS department. Because of this, I would like to help UIC DS students find courses that are manageable, genuinely interesting, and well-taught, which support workload balance and mental wellness, not just degree completion. 
+
 ---
 
 ## Documents
@@ -20,16 +22,16 @@
 
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 | Rate my professor| Blog | https://www.ratemyprofessors.com/school/1111|
+| 2 | Reddit |Blog  |https://www.reddit.com/r/uichicago/ |
+| 3 | UIC catalog |School website | https://www.reddit.com/r/uichicago/|
+| 4 | UIC grade distribution | School website | https://uicgrades.com/ |
+| 5 | UIC Data Science Major Info Page| School website| https://cs.uic.edu/undergraduate/data-science-major/ |
+| 6 | Coursicle | Blog | https://www.coursicle.com/uic/|
+| 7 | LinkedIn UIC| Blog |https://www.linkedin.com/school/thisisuic/posts/?feedView=all |
+| 8 | Medium | Blog | https://medium.com/search?q=uic|
+| 9 | Student Orgs |School website | https://cs.uic.edu/undergraduate      student-organizations/|
+| 10 | ULoop |Blog |https://illinois.uloop.com/professors |
 
 ---
 
@@ -40,11 +42,29 @@
      numbers fit the structure of your documents.
      A review-heavy corpus warrants different chunking than a long FAQ. -->
 
-**Chunk size:**
+### Chunk Size
+- **Size:** 800 characters
+- **Justification:** Course catalogs typically 8–15K chars each. 
+  800-char chunks preserve semantic units (prerequisites, grading 
+  policies) without splitting mid-concept.
 
-**Overlap:**
+### Chunk Overlap
+- **Size:** 200 characters (25% of chunk size)
+- **Justification:** Prevents fragmentation at chunk boundaries. 
+  Ensures policies/requirements that span the boundary appear complete 
+  in overlapping chunks.
 
-**Reasoning:**
+### Preprocessing
+- **Steps:**
+  1. Strip HTML tags
+  2. Remove navigation/boilerplate
+  3. Normalize whitespace
+- **Why:** Cleaner text → higher-quality embeddings
+
+### Final Chunk Count
+- **Total:** [Run pipeline to determine; estimated 80–150]
+- **Per source:** ~10–15 chunks (varies by source size)
+- **Measurement:** `len(all_chunks)` after processing all 10 sources
 
 ---
 
@@ -57,12 +77,11 @@
      support, accuracy on domain-specific text, latency? -->
 
 **Embedding model:**
-
+- all-MiniLM-L6-v2 (384 dimensions)
 **Top-k:**
-
+- 5–8 results per query
 **Production tradeoff reflection:**
-
----
+There are other models that do have fast speeds and are high quality, for example: Open AI's text embedding model 3-small would be great since its setup is simple and is great for general uses, or cohere embed-english v3.0 for production RAG systems, like this one specifically. However, they are not free. 
 
 ## Evaluation Plan
 
@@ -73,11 +92,17 @@
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+
+Tier One: Happy Paths 
+| 1 |What are the prereqs for CS251? | UIC Catalog chunk with full prereq list|
+| 2 | Who teaches CS251?| Professors names |
+
+Tier Two: Medium Difficulty
+| 3 | Is Professor Hallenback known for being generous with grading?| RMP reviews mentioning grading |
+| 4 | What skills will I learn in IDS 435? | Course description |
+
+Tier Three: Hard Difficulty
+| 5 | What do current students say about workload in CS480 or Cs 342?| Multiple Reddit/ RMP reviews synthesized |
 
 ---
 
@@ -87,9 +112,9 @@
      Consider: noisy or inconsistent documents, missing source attribution, off-topic
      retrieval, chunks that split key information across boundaries. -->
 
-1.
+1. Because half of my sources are unstructured, and come from places like Reddit, Rate My Professor, or LinkedIn, I can expect that they're going to be high-noise and inconsistent. This is because experiences are subjective, and can strongly differ by person. Because there is no guarantee on a consensus, there could be retrieval failure.
 
-2.
+2. For the other half of my sources that are strutured- the UIC catalogs, Grade Distribution, and Info Pages, there can be some inconsitency still present. This is because a catalog can list some course's prereqs, then the grade distribution course can say that most students took only one of those listed courses, and the info page can say that students must take only one mentioned prereq. Also, some websites might not be as updated and retrieve completely wrong information. Also, the output could be varied depending on the wording of the question. 
 
 ---
 

@@ -14,6 +14,9 @@
      Example: "Student reviews of CS professors at [university] — useful because official
      course descriptions don't reflect teaching style, exam difficulty, or workload." -->
 
+I have chosen Data Science Courses for UIC DS students since it's a relatively new program in the CS department. Because of this, I would like to help UIC DS students find courses that are manageable, genuinely interesting, and well-taught, which support workload balance and mental wellness, not just degree completion. 
+
+
 ---
 
 ## Document Sources
@@ -24,16 +27,16 @@
 
 | # | Source | Type | URL or file path |
 |---|--------|------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 | Rate my professor| Blog | https://www.ratemyprofessors.com/school/1111|
+| 2 | Reddit |Blog  |https://www.reddit.com/r/uichicago/ |
+| 3 | UIC catalog |School website | https://catalog.uic.edu/ucat/
+| 4 | UIC grade distribution | School website | https://uicgrades.com/ |
+| 5 | UIC Data Science Major Info Page| School website| https://cs.uic.edu/undergraduate/data-science-major/ |
+| 6 | Coursicle | Blog | https://www.coursicle.com/uic/|
+| 7 | LinkedIn UIC| Blog |https://www.linkedin.com/school/thisisuic/posts/?feedView=all |
+| 8 | Medium | Blog | https://medium.com/search?q=uic|
+| 9 | Student Orgs |School website | https://cs.uic.edu/undergraduate      student-organizations/|
+| 10 | ULoop |Blog |https://illinois.uloop.com/professors |
 
 ---
 
@@ -46,14 +49,32 @@
      - Any preprocessing you did before chunking (e.g., stripping HTML, removing headers)
      - What your final chunk count was across all documents -->
 
+Because of the nature of my program, my two content types (school catalogs or 
+blogs/reviews) its best to do a mix for chunking strategy. For example, short reviews would have a more optimal chunk size of 300-500 characters for a full review. Because splitting could lose context and tone. For long catalogs, splitting prevents overwhelming context noise, and keeping a small chunk strategy would dilute semantic relevance. 
+
+Source Type           → Chunking Strategy
+─────────────────────────────────────────
+Reviews               → Full review (if <1000 chars) OR sentence-based with min context
+Class descriptions    → By section header (Prerequisites, Description, Grading, etc.)
+Course catalogs       → Paragraph-based, max 800 chars
+Prerequisites lists   → Keep together as one chunk if ≤500 chars
+GPA/policy pages      → Split by rule/policy, keep examples together
+
+
 **Chunk size:**
-
+After looking at my different sources, I have chosen an 800 char chunks strategy. This will keep prereqs/grading/descriptions intact.
 **Overlap:**
-
+I will be usig overlap of 200 characters. This prevents important concepts from falling exactly at chunk boundaries, like miss full policies about grading/prereq requirements. I also plan on using metadata filtering to help re-rank. However, this will not solve boundary fragmentation during retrieval.
 **Why these choices fit your documents:**
-
+Preprocessing removes HTML tags, navigation/ header boilerplate, and normalizes whitespace. This is applied before chunking to ensure all chunks start from clean text. Cleaner input improves embedding quality (all-MiniLM produces more accurate vectors for well-formed text).
 **Final chunk count:**
+The chunk count is determined by running the preprocessing + chunking pipeline on all 10 sources. Estimated range: 80–150 chunks (varies by source size). Measured via: total_chunks = sum(len(chunk_with_overlap(preprocess(source), 800, 200)) for source in sources).
 
+- Example calculation:
+  - Source 1: 8K chars → ~10 chunks
+  - Source 2: 12K chars → ~15 chunks
+  - ...
+  - Total: ~120 chunks (example)
 ---
 
 ## Embedding Model
@@ -65,9 +86,10 @@
      latency, and local vs. API-hosted. -->
 
 **Model used:**
+- all-MiniLM-L6-v2 (384 dimensions)
 
 **Production tradeoff reflection:**
-
+There are other models that do have fast speeds and are high quality, for example: Open AI's text embedding model 3-small would be great since its setup is simple and is great for general uses, or cohere embed-english v3.0 for production RAG systems, like this one specifically. However, they are not free. 
 ---
 
 ## Grounded Generation
@@ -93,11 +115,16 @@
 
 | # | Question | Expected answer | System response (summarized) | Retrieval quality | Response accuracy |
 |---|----------|-----------------|------------------------------|-------------------|-------------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+Tier One: Happy Paths 
+| 1 |What are the prereqs for CS251? | UIC Catalog chunk with full prereq list|
+| 2 | Who teaches CS251?| Professors names |
+
+Tier Two: Medium Difficulty
+| 3 | Is Professor Hallenback known for being generous with grading?| RMP reviews mentioning grading |
+| 4 | What skills will I learn in IDS 435? | Course description |
+
+Tier Three: Hard Difficulty
+| 5 | What do current students say about workload in CS480 or Cs 342?| Multiple Reddit/ RMP reviews synthesized |
 
 **Retrieval quality:** Relevant / Partially relevant / Off-target  
 **Response accuracy:** Accurate / Partially accurate / Inaccurate
