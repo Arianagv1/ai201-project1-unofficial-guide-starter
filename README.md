@@ -117,10 +117,11 @@ The chunk count is determined by running the preprocessing + chunking pipeline o
 | # | Question | Expected answer | System response (summarized) | Retrieval quality | Response accuracy |
 |---|----------|-----------------|------------------------------|-------------------|-------------------|
 | 1 |What are the prereqs for CS251? | UIC Catalog chunk with full prereq list|
-| 2 | Who teaches CS251?| Professors names |
-| 3 | Is Professor Hallenback known for being generous with grading?| RMP reviews mentioning grading |
+| 2 | Which professor is best for STAT 381?| Professors names or ULoop |
+| 3 | Who teaches CS251?| UIC catalog or Professor search |
 | 4 | What skills will I learn in IDS 435? | Course description |
 | 5 | What do current students say about workload in CS480 or Cs 342?| Multiple Reddit/ RMP reviews synthesized |
+
 
 **Retrieval quality:** Relevant / Partially relevant / Off-target  
 **Response accuracy:** Accurate / Partially accurate / Inaccurate
