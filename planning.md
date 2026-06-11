@@ -16,13 +16,13 @@ I have chosen Data Science Courses for UIC DS students since it's a relatively n
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
 | 1 | Rate my professor| Blog | https://www.ratemyprofessors.com/school/1111|
-| 2 | Reddit |Blog  |https://www.reddit.com/r/uichicago/ |
-| 3 | UIC catalog |School website | https://www.reddit.com/r/uichicago/|
+| 2 | Reddit |Blog  |https://old.reddit.com |
+| 3 | UIC catalog |School website | https://catalog.uic.edu/ucat/|
 | 4 | UIC grade distribution | School website | https://uicgrades.com/ |
-| 5 | UIC Data Science Major Info Page| School website| https://cs.uic.edu/undergraduate/data-science-major/ |
+| 5 | UIC Data Science Major Info Page| School website| https://catalog.uic.edu/ucat/colleges-depts/engineering/cs/bs-data-science-computer-science/
 | 6 | Coursicle | Blog | https://www.coursicle.com/uic/|
 | 7 | LinkedIn UIC| Blog |https://www.linkedin.com/school/thisisuic/posts/?feedView=all |
-| 8 | Medium | Blog | https://medium.com/search?q=uic|
+| 8 | UIC Easy Classes | Blog | https://uicgrades.com/findEasyCourses.html |
 | 9 | Student Orgs |School website | https://cs.uic.edu/undergraduate      student-organizations/|
 | 10 | ULoop |Blog |https://illinois.uloop.com/professors |
 

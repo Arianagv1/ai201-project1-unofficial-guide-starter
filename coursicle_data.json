@@ -1,0 +1,1161 @@
+{
+  "coursicle_CS111": {
+    "course_code": "CS 111",
+    "avg_rating": "",
+    "description": "Introduction to programming: control structures; variables and data types; problem decomposition and procedural programming; input and output; aggregate data structures including arrays; programming exercises. Course Information: 3 hours. Previously listed as CS 101. Extensive computer use required. Credit is not given for CS 111 if student has credit in CS 112 or CS 113. Class Schedule Information: To be properly registered, students must enroll in one Laboratory and one Lecture-Discussion.",
+    "credits": "",
+    "class_size": "23-174",
+    "usually_offered": "",
+    "attributes": "",
+    "former_titles": "",
+    "recent_semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+    "recent_professors": "David Hayes, Ja Yu, Yingtong Dou, Patrick Troy, Robert Sloan, Hasti Sharifi, Booma Balasubramani, Itika Gupta, Yingyi Ma, Tanya Berger-Wolf, Akshun Jhingan",
+    "all_fields": {
+      "Recent Professors": "David Hayes, Ja Yu, Yingtong Dou, Patrick Troy, Robert Sloan, Hasti Sharifi, Booma Balasubramani, Itika Gupta, Yingyi Ma, Tanya Berger-Wolf, Akshun Jhingan",
+      "Recent Semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+      "Class Size": "23-174",
+      "Fall 2026 Sections": "View Fall 2026 sections of CS 111",
+      "🎥 Make TikToks for Coursicle": "We're paying $500/month to make videos about Coursicle, an app that actually helps students. Tap here to apply.",
+      "Avg. Professor Rating": "62",
+      "Description": "Introduction to programming: control structures; variables and data types; problem decomposition and procedural programming; input and output; aggregate data structures including arrays; programming exercises. Course Information: 3 hours. Previously listed as CS 101. Extensive computer use required. Credit is not given for CS 111 if student has credit in CS 112 or CS 113. Class Schedule Information: To be properly registered, students must enroll in one Laboratory and one Lecture-Discussion.",
+      "Typical Class Length": "50 minutes, 1 hour 15 minutes"
+    },
+    "professor_reviews": [
+      {
+        "author": "Shanon Reckinger",
+        "timestamp": "3y",
+        "year": "First-year",
+        "major": "LAS",
+        "body": "She isn't the worst teacher, I had already known most of the content beforehand, but when it comes to this, she doesn't do a good job explaining anything and relies on you to watch her lectures and do the homework to learn most of it."
+      },
+      {
+        "author": "Tanya Berger-Wolf",
+        "timestamp": "3y",
+        "year": "Sophomore",
+        "major": "CS",
+        "body": "The course CS111Bio is the worst class possible. The professors not so appropriate. Id never take or recommend this class and this professor ever again."
+      }
+    ],
+    "sections": [],
+    "source_url": "https://www.coursicle.com/uic/courses/CS/111/"
+  },
+  "coursicle_CS112": {
+    "course_code": "CS 112",
+    "avg_rating": "",
+    "description": "Introduction to programming using Biology as the context for programming in a high-level language; control structures, variables, simple and aggregate data types; problem-solving techniques; biology topics include central dogma and genetics. Course Information: Same as BIOS 112. Credits is not given for CS 112, if student has credit in CS 111 or CS 113. Course Schedule Information: To be properly registered, students must enroll in one Laboratory and one Lecture-Discussion.",
+    "credits": "",
+    "class_size": "23-140",
+    "usually_offered": "W (50 minutes), TuTh (1 hour 15 minutes)",
+    "attributes": "",
+    "former_titles": "",
+    "recent_semesters": "Fall 2024, Fall 2023, Fall 2022, Fall 2021, Fall 2020",
+    "recent_professors": "Pat Troy, Patrick Troy",
+    "all_fields": {
+      "Recent Professors": "Pat Troy, Patrick Troy",
+      "Recent Semesters": "Fall 2024, Fall 2023, Fall 2022, Fall 2021, Fall 2020",
+      "Former Title": "Program Design I in the Context of Biological Problems",
+      "Class Size": "23-140",
+      "Fall 2026 Sections": "View Fall 2026 sections of CS 112",
+      "🎥 Make TikToks for Coursicle": "We're paying $500/month to make videos about Coursicle, an app that actually helps students. Tap here to apply.",
+      "Avg. Professor Rating": "79",
+      "Description": "Introduction to programming using Biology as the context for programming in a high-level language; control structures, variables, simple and aggregate data types; problem-solving techniques; biology topics include central dogma and genetics. Course Information: Same as BIOS 112. Credits is not given for CS 112, if student has credit in CS 111 or CS 113. Course Schedule Information: To be properly registered, students must enroll in one Laboratory and one Lecture-Discussion.",
+      "Usually Offered": "W (50 minutes), TuTh (1 hour 15 minutes)"
+    },
+    "professor_reviews": [
+      {
+        "author": "Boris Igic",
+        "timestamp": "1y",
+        "year": "Sophomore",
+        "major": "NEUS",
+        "body": "Y'all listen. This is a great professor."
+      },
+      {
+        "author": "Mitchell Theys",
+        "timestamp": "3y",
+        "year": "Junior",
+        "major": "LAS",
+        "body": "Prof. Igic and prof. Theys taught this coding class with biology. I liked his part of this class. Lots of homework and projects, but they help you out in class and lab and office hours. Its the same as CS111 except maybe a little easier and with biology. Good class overall."
+      }
+    ],
+    "sections": [],
+    "source_url": "https://www.coursicle.com/uic/courses/CS/112/"
+  },
+  "coursicle_CS113": {
+    "course_code": "CS 113",
+    "avg_rating": "",
+    "description": "",
+    "credits": "",
+    "class_size": "",
+    "usually_offered": "",
+    "attributes": "",
+    "former_titles": "",
+    "recent_semesters": "Spring 2024, Spring 2022",
+    "recent_professors": "",
+    "all_fields": {
+      "Recent Semesters": "Spring 2024, Spring 2022",
+      "Fall 2026 Sections": "View Fall 2026 sections of CS 113",
+      "🎥 Make TikToks for Coursicle": "We're paying $500/month to make videos about Coursicle, an app that actually helps students. Tap here to apply.",
+      "Typical Class Length": "50 minutes, 1 hour 15 minutes"
+    },
+    "professor_reviews": [
+      {
+        "author": "Robert Sloan",
+        "timestamp": "2y",
+        "year": "Junior",
+        "major": "ECON",
+        "body": "It wasn't the best class, it felt like the professor wasn't teaching the material we had to be learning. This class was also difficult because we were expected to know everything in a beginner-level class. It was impossible to learn, and difficult to manage."
+      }
+    ],
+    "sections": [],
+    "source_url": "https://www.coursicle.com/uic/courses/CS/113/"
+  },
+  "coursicle_CS141": {
+    "course_code": "CS 141",
+    "avg_rating": "",
+    "description": "Data abstraction and modular design; recursion; lists and stacks; dynamic memory allocation; file manipulation; programming exercises. Course Information: 3 hours. Previously listed as CS 102. Extensive computer use required. Prerequisite(s): Grade of C or better in CS 111 or Grade of C or better in CS 109; and Credit or concurrent registration in MATH 180. Class Schedule Information: To be properly registered, students must enroll in one Laboratory-Discussion and one Lecture-Discussion.",
+    "credits": "",
+    "class_size": "25-280",
+    "usually_offered": "Tu (50 minutes), MWF (50 minutes)",
+    "attributes": "",
+    "former_titles": "",
+    "recent_semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+    "recent_professors": "Dale Reed, Ellen Kidane, Joseph Hummel, Sean Deitz, Aditi Mallavarapu, Yuwei Cao, Seo Park, Mohammad Arvan, Abhinav Kumar",
+    "all_fields": {
+      "Recent Professors": "Dale Reed, Ellen Kidane, Joseph Hummel, Sean Deitz, Aditi Mallavarapu, Yuwei Cao, Seo Park, Mohammad Arvan, Abhinav Kumar",
+      "Recent Semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+      "Class Size": "25-280",
+      "Fall 2026 Sections": "View Fall 2026 sections of CS 141",
+      "🎥 Make TikToks for Coursicle": "We're paying $500/month to make videos about Coursicle, an app that actually helps students. Tap here to apply.",
+      "Avg. Professor Rating": "49",
+      "Description": "Data abstraction and modular design; recursion; lists and stacks; dynamic memory allocation; file manipulation; programming exercises. Course Information: 3 hours. Previously listed as CS 102. Extensive computer use required. Prerequisite(s): Grade of C or better in CS 111 or Grade of C or better in CS 109; and Credit or concurrent registration in MATH 180. Class Schedule Information: To be properly registered, students must enroll in one Laboratory-Discussion and one Lecture-Discussion.",
+      "Usually Offered": "Tu (50 minutes), MWF (50 minutes)"
+    },
+    "professor_reviews": [
+      {
+        "author": "Dale Reed",
+        "timestamp": "3y",
+        "year": "Sophomore",
+        "major": "CS",
+        "body": "Through out this course students were taught how to draw a line, but were expected to create the Mona Lisa when it came to programs. Please teach students well enough, so they can create such programs. Also, there isnt any extra credit besides in lab, so the reviews that say a lot of extra credit is given please scrap that. It has little effect..."
+      },
+      {
+        "author": "John Lillis",
+        "timestamp": "3y",
+        "year": "First-year",
+        "major": "CS",
+        "body": "While he can be a tad bit disorganized and goes off topic during lecture, Prof. Lillis is actually pretty good at explaining the beginning concepts of computer science. Most of the grade comes from the homework assignments, which are programs to be made in C. Start the programs early, as they can be challenging and you will run into problems."
+      }
+    ],
+    "sections": [],
+    "source_url": "https://www.coursicle.com/uic/courses/CS/141/"
+  },
+  "coursicle_CS151": {
+    "course_code": "CS 151",
+    "avg_rating": "",
+    "description": "Discrete mathematics concepts fundamental to computing: propositional logic, predicates and quantifiers; proofs; sets; recursive definitions and induction; functions, relations and graphs; combinatorics and discrete probability; applications. Course Information: 3 hours. Credit is not given for CS 151 if the student has credit in MCS 361. Prerequisite(s): MATH 180; and Grade of C or better in CS 111. Class Schedule Information: To be properly registered, students must enroll in one Lecture and one Discussion.",
+    "credits": "",
+    "class_size": "30-300",
+    "usually_offered": "",
+    "attributes": "",
+    "former_titles": "",
+    "recent_semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+    "recent_professors": "Gonzalo Lander, Evan McCarty, Yingtong Dou, Sepideh Esmaeilpourcharandabi, Bohan Fan, Prithviraj Sengupta, Zohreh Ovaisi, Yeshu Li",
+    "all_fields": {
+      "Recent Professors": "Gonzalo Lander, Evan McCarty, Yingtong Dou, Sepideh Esmaeilpourcharandabi, Bohan Fan, Prithviraj Sengupta, Zohreh Ovaisi, Yeshu Li",
+      "Recent Semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+      "Former Title": "Mathematical Foundations of Computing",
+      "Class Size": "30-300",
+      "Fall 2026 Sections": "View Fall 2026 sections of CS 151",
+      "🎥 Make TikToks for Coursicle": "We're paying $500/month to make videos about Coursicle, an app that actually helps students. Tap here to apply.",
+      "Avg. Professor Rating": "89",
+      "Description": "Discrete mathematics concepts fundamental to computing: propositional logic, predicates and quantifiers; proofs; sets; recursive definitions and induction; functions, relations and graphs; combinatorics and discrete probability; applications. Course Information: 3 hours. Credit is not given for CS 151 if the student has credit in MCS 361. Prerequisite(s): MATH 180; and Grade of C or better in CS 111. Class Schedule Information: To be properly registered, students must enroll in one Lecture and one Discussion.",
+      "Typical Class Length": "50 minutes"
+    },
+    "professor_reviews": [
+      {
+        "author": "John Lillis",
+        "timestamp": "3y",
+        "year": "First-year",
+        "major": "CLJ",
+        "body": "Lillis is an intelligent man, however he assumes that we are all capable of grasping a concept simply because he is the one teaching it. His way of teaching can be difficult for some people to grasp and he will sometimes answer questions with sarcasm as if we already know the answer. My advice is to avoid him if possible."
+      },
+      {
+        "author": "Gonzalo Lander",
+        "timestamp": "3y",
+        "year": "Junior",
+        "major": "CLJ",
+        "body": "Good lecturer, has a slight accent, but nothing that impedes his ability to teach or your ability to learn. He goes out of his way to upload notes and lecture slides. Sometimes I worry that he spends all his time for this class. He will be up pretty late answering piazza questions. Puts a lot of effort into making sure students get the material."
+      }
+    ],
+    "sections": [],
+    "source_url": "https://www.coursicle.com/uic/courses/CS/151/"
+  },
+  "coursicle_CS211": {
+    "course_code": "CS 211",
+    "avg_rating": "",
+    "description": "Software development tools and practices; debugging and testing; advanced language features; standard libraries; code management. Course Information: 2 hours. Extensive computer use required. Prerequisite(s): Grade of C or better in CS 141; or Grade of C or better in CS 107. The option to use CS 107 as a prerequisite (in place of CS 141) is only for Computer Engineering majors or students doing a Computer Engineering minor. Class Schedule Information: To be properly registered, students must enroll in one Lecture-Discussion and one Laboratory-Discussion.",
+    "credits": "",
+    "class_size": "20-288",
+    "usually_offered": "",
+    "attributes": "",
+    "former_titles": "",
+    "recent_semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+    "recent_professors": "John Lillis, Pat Troy, Nasim Mobasheri, Omid Memarrast, Mohammad Ghasemisharif, Ye Liu, Mobashir Sadat, Patrick Troy",
+    "all_fields": {
+      "Recent Professors": "John Lillis, Pat Troy, Nasim Mobasheri, Omid Memarrast, Mohammad Ghasemisharif, Ye Liu, Mobashir Sadat, Patrick Troy",
+      "Recent Semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+      "Class Size": "20-288",
+      "Fall 2026 Sections": "View Fall 2026 sections of CS 211",
+      "🎥 Make TikToks for Coursicle": "We're paying $500/month to make videos about Coursicle, an app that actually helps students. Tap here to apply.",
+      "Avg. Professor Rating": "62",
+      "Description": "Software development tools and practices; debugging and testing; advanced language features; standard libraries; code management. Course Information: 2 hours. Extensive computer use required. Prerequisite(s): Grade of C or better in CS 141; or Grade of C or better in CS 107. The option to use CS 107 as a prerequisite (in place of CS 141) is only for Computer Engineering majors or students doing a Computer Engineering minor. Class Schedule Information: To be properly registered, students must enroll in one Lecture-Discussion and one Laboratory-Discussion.",
+      "Typical Class Length": "1 hour 50 minutes, 50 minutes"
+    },
+    "professor_reviews": [
+      {
+        "author": "Scott Reckinger",
+        "timestamp": "1y",
+        "year": "Senior",
+        "major": "CS",
+        "body": "Prof. Reckinger is a great instructor. The projects can be challenging at times, but he makes an effort to give you the material needed to complete the projects. There's also extra credit to give you incentive to complete the project early. His rating does not reflect how good he is IMO."
+      },
+      {
+        "author": "John Lillis",
+        "timestamp": "3y",
+        "year": "Sophomore",
+        "major": "CS",
+        "body": "He is a terrible prof. I swear whatever you do don't take this guy, he's the worst prof I have ever seen because 1) this mf doesnt doesn't know how to teach 2) he posts the lab quizzes very late/ whenever he wants to 3) he doesn't have test cases for programs he makes you write 4) Takes forever grade projects. He Should look for a new profession."
+      }
+    ],
+    "sections": [],
+    "source_url": "https://www.coursicle.com/uic/courses/CS/211/"
+  },
+  "coursicle_CS251": {
+    "course_code": "CS 251",
+    "avg_rating": "",
+    "description": "Design, usage and analysis of data structures: review of lists, stacks and queues; hash tables, priority queues, search trees, introduction to graphs; searching and sorting; runtime analysis; programming projects and lab exercises. Course Information: 4 hours. Prerequisite (s): Grade of C or better in CS 141; and Grade of C or better in CS 151; and Credit or concurrent registration in CS 211. To be properly registered, students must enroll in one Lecture-Discussion and one Laboratory.",
+    "credits": "",
+    "class_size": "24-320",
+    "usually_offered": "",
+    "attributes": "",
+    "former_titles": "",
+    "recent_semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+    "recent_professors": "Shanon Reckinger, He Huang, Joseph Hummel, Jack Blandin, Nianzu Ma, Waqar Azam, Sri Maddala, Mingquan Ye, Manasa Kandimalla, John Lillis, Evan McCarty, Mehrnaz Najafi, Patrick Troy, Congying Xia",
+    "all_fields": {
+      "Recent Professors": "Shanon Reckinger, He Huang, Joseph Hummel, Jack Blandin, Nianzu Ma, Waqar Azam, Sri Maddala, Mingquan Ye, Manasa Kandimalla, John Lillis, Evan McCarty, Mehrnaz Najafi, Patrick Troy, Congying Xia",
+      "Recent Semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+      "Class Size": "24-320",
+      "Fall 2026 Sections": "View Fall 2026 sections of CS 251",
+      "🎥 Make TikToks for Coursicle": "We're paying $500/month to make videos about Coursicle, an app that actually helps students. Tap here to apply.",
+      "Avg. Professor Rating": "59",
+      "Description": "Design, usage and analysis of data structures: review of lists, stacks and queues; hash tables, priority queues, search trees, introduction to graphs; searching and sorting; runtime analysis; programming projects and lab exercises. Course Information: 4 hours. Prerequisite (s): Grade of C or better in CS 141; and Grade of C or better in CS 151; and Credit or concurrent registration in CS 211. To be properly registered, students must enroll in one Lecture-Discussion and one Laboratory.",
+      "Typical Class Length": "1 hour 50 minutes, 50 minutes"
+    },
+    "professor_reviews": [
+      {
+        "author": "John Lillis",
+        "timestamp": "3y",
+        "year": "Sophomore",
+        "major": "CS",
+        "body": "Extremely hard class. Mostly because Lillis A: does not grade projects quickly. B: lectures over students heads very quickly. He will move on as fast as possible.C: teaches by giving small problem sets, of difficult problems and expects the student to not need extra help. If you don't understand the material after the 5 problem homework, good luck"
+      },
+      {
+        "author": "Dale Reed",
+        "timestamp": "3y",
+        "year": "Junior",
+        "major": "CS",
+        "body": "Dude is great guy but bad teacher. He is good for basic programming classes but not for higher level. He has high expectation but doesn't teach at that level. Watch out for journals and clickers. He only explains important stuff at the end of lecture. and rushing through it. In general avoid if possible."
+      }
+    ],
+    "sections": [],
+    "source_url": "https://www.coursicle.com/uic/courses/CS/251/"
+  },
+  "coursicle_CS342": {
+    "course_code": "CS 342",
+    "avg_rating": "",
+    "description": "Software design principles and practices: Object-oriented design; design patterns; software reuse; testing; event driven programming and concurrency; graphical user interface design and development; Team development. Course Information: Extensive computer use required. Credit is not given for CS 342 if the student has credit for CS 340. Prerequisite(s): Grade of C or better in CS 251 and Grade of C or better in CS 211.",
+    "credits": "3",
+    "class_size": "90-150",
+    "usually_offered": "",
+    "attributes": "",
+    "former_titles": "",
+    "recent_semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+    "recent_professors": "Mark Hallenbeck, John Bell",
+    "all_fields": {
+      "Recent Professors": "Mark Hallenbeck, John Bell",
+      "Recent Semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+      "Class Size": "90-150",
+      "Credits": "3",
+      "Fall 2026 Sections": "View Fall 2026 sections of CS 342",
+      "🎥 Make TikToks for Coursicle": "We're paying $500/month to make videos about Coursicle, an app that actually helps students. Tap here to apply.",
+      "Avg. Professor Rating": "51",
+      "Description": "Software design principles and practices: Object-oriented design; design patterns; software reuse; testing; event driven programming and concurrency; graphical user interface design and development; Team development. Course Information: Extensive computer use required. Credit is not given for CS 342 if the student has credit for CS 340. Prerequisite(s): Grade of C or better in CS 251 and Grade of C or better in CS 211.",
+      "Usually Held": "TuTh (11:00am-12:15pm), TuTh (12:30pm-1:45pm), TuTh (2:00pm-3:15pm)"
+    },
+    "professor_reviews": [
+      {
+        "author": "Dale Reed",
+        "timestamp": "3y",
+        "year": "Senior",
+        "major": "CS",
+        "body": "Disorganized, gives difficult programs, and is not a great lecturer. He's a cool guy, sure, but that does not translate to teaching ability."
+      },
+      {
+        "author": "John Bell",
+        "timestamp": "3y",
+        "year": "Junior",
+        "major": "CS",
+        "body": "I never showed up to his class and still got an A (granted because Java is relatively easy and the projects are okay). His good side is that he's very accessible outside class. The bad side is that his lectures are very boring."
+      }
+    ],
+    "sections": [],
+    "source_url": "https://www.coursicle.com/uic/courses/CS/342/"
+  },
+  "coursicle_CS377": {
+    "course_code": "CS 377",
+    "avg_rating": "",
+    "description": "Communication skills for computing professionals: presentation organization, visual aides, delivery techniques, argument support. Ethical and societal issues in computing: privacy, intellectual property and ownership, crime. Course Information: 3 hours. Extensive computer use required. Credit is not given for CS 377 if the student has credit in CS 335 or CS 376. Prerequisite(s): Credit or concurrent registration in CS 251. Class Schedule Information: To be properly registered, students must enroll in one Lecture-Discussion and one Laboratory-Discussion.",
+    "credits": "",
+    "class_size": "13-32",
+    "usually_offered": "",
+    "attributes": "",
+    "former_titles": "Communicationand Ethics, Communication and Ethical Issues in Computing",
+    "recent_semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+    "recent_professors": "Emanuelle Burton, Kristel Clayville, Cody Cranch, Patrick Troy, Bonita Ford, Sara Swiatek",
+    "all_fields": {
+      "Recent Professors": "Emanuelle Burton, Kristel Clayville, Cody Cranch, Patrick Troy, Bonita Ford, Sara Swiatek",
+      "Recent Semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+      "Former Titles": "Communicationand Ethics, Communication and Ethical Issues in Computing",
+      "Class Size": "13-32",
+      "Fall 2026 Sections": "View Fall 2026 sections of CS 377",
+      "🎥 Make TikToks for Coursicle": "We're paying $500/month to make videos about Coursicle, an app that actually helps students. Tap here to apply.",
+      "Avg. Professor Rating": "73",
+      "Description": "Communication skills for computing professionals: presentation organization, visual aides, delivery techniques, argument support. Ethical and societal issues in computing: privacy, intellectual property and ownership, crime. Course Information: 3 hours. Extensive computer use required. Credit is not given for CS 377 if the student has credit in CS 335 or CS 376. Prerequisite(s): Credit or concurrent registration in CS 251. Class Schedule Information: To be properly registered, students must enroll in one Lecture-Discussion and one Laboratory-Discussion.",
+      "Typical Class Length": "1 hour 50 minutes, 50 minutes"
+    },
+    "professor_reviews": [
+      {
+        "author": "Lenore Zuck",
+        "timestamp": "3y",
+        "year": "Senior",
+        "major": "CS",
+        "body": "She evidently didn't care much about the class, or she was just too much of an airhead for her own good. There were a ton of assigned readings for the Ethics class, but we were never properly quizzed on them, so almost no one read them.  It's evident she is very intelligent but don't ever take her for a formal CS class, she can't stay on topic."
+      },
+      {
+        "author": "Emanuelle Burton",
+        "timestamp": "2y",
+        "year": "Senior",
+        "major": "CS",
+        "body": "Makes us read about the most weird and vulgar stuff"
+      }
+    ],
+    "sections": [],
+    "source_url": "https://www.coursicle.com/uic/courses/CS/377/"
+  },
+  "coursicle_CS412": {
+    "course_code": "CS 412",
+    "avg_rating": "",
+    "description": "Mechanism, implementation, and application of systems that improve automatically based on past experience, including classification, density estimation, clustering, and online learning tasks and solutions. Course Information: 3 undergraduate hours. 4 graduate hours. Extensive computer use required. MATLAB will be used for some of the homework assignments, but prior experience with it is not required. Prerequisite(s): Grade of C or better in CS 251; and IE 342 or STAT 381 or ECE 341.",
+    "credits": "3",
+    "class_size": "20-80",
+    "usually_offered": "TuTh (1 hour 15 minutes), MW (1 hour 15 minutes)",
+    "attributes": "",
+    "former_titles": "",
+    "recent_semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+    "recent_professors": "Wei Tang, Xinhua Zhang, Elena Zheleva, Evan McCarty",
+    "all_fields": {
+      "Recent Professors": "Wei Tang, Xinhua Zhang, Elena Zheleva, Evan McCarty",
+      "Recent Semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+      "Former Title": "Introduction to Machine Learning",
+      "Class Size": "20-80",
+      "Credits": "3",
+      "Fall 2026 Sections": "View Fall 2026 sections of CS 412",
+      "🎥 Make TikToks for Coursicle": "We're paying $500/month to make videos about Coursicle, an app that actually helps students. Tap here to apply.",
+      "Avg. Professor Rating": "69",
+      "Description": "Mechanism, implementation, and application of systems that improve automatically based on past experience, including classification, density estimation, clustering, and online learning tasks and solutions. Course Information: 3 undergraduate hours. 4 graduate hours. Extensive computer use required. MATLAB will be used for some of the homework assignments, but prior experience with it is not required. Prerequisite(s): Grade of C or better in CS 251; and IE 342 or STAT 381 or ECE 341.",
+      "Usually Offered": "TuTh (1 hour 15 minutes), MW (1 hour 15 minutes)"
+    },
+    "professor_reviews": [
+      {
+        "author": "Elena Zheleva",
+        "timestamp": "3y",
+        "year": "Senior",
+        "major": "CS",
+        "body": "You'll need to work hard on your own to pass in this class."
+      },
+      {
+        "author": "Xinhua Zhang",
+        "timestamp": "5mo",
+        "year": "Sophomore",
+        "major": "CS",
+        "body": "An awesome professor who provides thorough explanations and covers every detail. Although the class itself is challenging, the way he teaches makes it feel much easier to understand. I would definitely recommend taking his class."
+      }
+    ],
+    "sections": [],
+    "source_url": "https://www.coursicle.com/uic/courses/CS/412/"
+  },
+  "coursicle_CS418": {
+    "course_code": "CS 418",
+    "avg_rating": "",
+    "description": "Provides an in-depth overview of data science in engineering. Topics include modeling, storage, manipulation, integration, classification, analysis, visualization, information extraction, and big data in the engineering domain. Course Information: 3 undergraduate hours. 4 graduate hours. Extensive computer use required. Prerequisite(s): Grade of C or better in CS 251; and STAT 381 or IE 342 or ECE 341.",
+    "credits": "3",
+    "class_size": "20-65",
+    "usually_offered": "TuTh (1 hour 15 minutes), MW (1 hour 15 minutes)",
+    "attributes": "",
+    "former_titles": "",
+    "recent_semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+    "recent_professors": "Nasim Mobasheri, Gonzalo Lander, Elena Zheleva",
+    "all_fields": {
+      "Recent Professors": "Nasim Mobasheri, Gonzalo Lander, Elena Zheleva",
+      "Recent Semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+      "Class Size": "20-65",
+      "Credits": "3",
+      "Fall 2026 Sections": "View Fall 2026 sections of CS 418",
+      "🎥 Make TikToks for Coursicle": "We're paying $500/month to make videos about Coursicle, an app that actually helps students. Tap here to apply.",
+      "Avg. Professor Rating": "89",
+      "Description": "Provides an in-depth overview of data science in engineering. Topics include modeling, storage, manipulation, integration, classification, analysis, visualization, information extraction, and big data in the engineering domain. Course Information: 3 undergraduate hours. 4 graduate hours. Extensive computer use required. Prerequisite(s): Grade of C or better in CS 251; and STAT 381 or IE 342 or ECE 341.",
+      "Usually Offered": "TuTh (1 hour 15 minutes), MW (1 hour 15 minutes)"
+    },
+    "professor_reviews": [
+      {
+        "author": "Gonzalo Lander",
+        "timestamp": "3y",
+        "year": "Junior",
+        "major": "CS",
+        "body": "Literally the highest quality professor in the UIC CS department."
+      },
+      {
+        "author": "Isabel Cruz",
+        "timestamp": "3y",
+        "year": "Senior",
+        "major": "CS",
+        "body": "Covers various topics from machine learning and data mining. Awesome project and simple homeworks."
+      }
+    ],
+    "sections": [],
+    "source_url": "https://www.coursicle.com/uic/courses/CS/418/"
+  },
+  "coursicle_CS421": {
+    "course_code": "CS 421",
+    "avg_rating": "",
+    "description": "Design of natural language processing systems; part-of speech tagging, statistical and symbolic parsers; semantic interpretation; discourse and dialogue processing; natural language generation; applications. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): CS 301 or MCS 441.",
+    "credits": "3",
+    "class_size": "24-80",
+    "usually_offered": "",
+    "attributes": "",
+    "former_titles": "",
+    "recent_semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+    "recent_professors": "Natalie Parde, Barbara Eugenio",
+    "all_fields": {
+      "Recent Professors": "Natalie Parde, Barbara Eugenio",
+      "Recent Semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+      "Former Title": "Natural Language Processing",
+      "Class Size": "24-80",
+      "Credits": "3",
+      "Fall 2026 Sections": "View Fall 2026 sections of CS 421",
+      "🎥 Make TikToks for Coursicle": "We're paying $500/month to make videos about Coursicle, an app that actually helps students. Tap here to apply.",
+      "Avg. Professor Rating": "54",
+      "Description": "Design of natural language processing systems; part-of speech tagging, statistical and symbolic parsers; semantic interpretation; discourse and dialogue processing; natural language generation; applications. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): CS 301 or MCS 441.",
+      "Usually Held": "TuTh (9:30am-10:45am), TuTh (8:00am-9:15am), TuTh (2:00pm-3:15pm)"
+    },
+    "professor_reviews": [
+      {
+        "author": "Barbara Eugenio",
+        "timestamp": "3y",
+        "year": "Junior",
+        "major": "CS",
+        "body": "Great professor, interesting homework, exams not too difficult (she asks exactly what is done in class, so one just need to review). The class itself is a good mix of computer science and linguistics."
+      },
+      {
+        "author": "Natalie Parde",
+        "timestamp": "2y",
+        "year": "Senior",
+        "major": "CS",
+        "body": "The professor is very nice and accessible. Class grading is composed of assignments and projects that include some coding in python as well as a written portion. Easy class to take as an elective. Lectures can get boring."
+      }
+    ],
+    "sections": [],
+    "source_url": "https://www.coursicle.com/uic/courses/CS/421/"
+  },
+  "coursicle_CS424": {
+    "course_code": "CS 424",
+    "avg_rating": "",
+    "description": "Geospatial visualization, scientific visualization, medical visualization, information visualization, and social network visualization, interaction, data analysis, human factors, dynamic data, privacy, uncertainty, data transforms. Course Information: 3 undergraduate hours. 4 graduate hours. Extensive computer use required. Prerequisite(s): Grade of C or better in CS 251.",
+    "credits": "3",
+    "class_size": "15-36",
+    "usually_offered": "",
+    "attributes": "",
+    "former_titles": "",
+    "recent_semesters": "Fall 2026, Fall 2023, Fall 2022, Spring 2022, Spring 2021",
+    "recent_professors": "Andrew Johnson",
+    "all_fields": {
+      "Recent Professors": "Andrew Johnson",
+      "Recent Semesters": "Fall 2026, Fall 2023, Fall 2022, Spring 2022, Spring 2021",
+      "Former Title": "Visualization and Visual Analytics",
+      "Class Size": "15-36",
+      "Credits": "3",
+      "Fall 2026 Sections": "View Fall 2026 sections of CS 424",
+      "🎥 Make TikToks for Coursicle": "We're paying $500/month to make videos about Coursicle, an app that actually helps students. Tap here to apply.",
+      "Avg. Professor Rating": "65",
+      "Description": "Geospatial visualization, scientific visualization, medical visualization, information visualization, and social network visualization, interaction, data analysis, human factors, dynamic data, privacy, uncertainty, data transforms. Course Information: 3 undergraduate hours. 4 graduate hours. Extensive computer use required. Prerequisite(s): Grade of C or better in CS 251.",
+      "Usually Held": "TuTh (3:30pm-4:45pm), TuTh (9:30am-10:45am), TuTh (8:00am-9:15am)"
+    },
+    "professor_reviews": [
+      {
+        "author": "Fabio Miranda",
+        "timestamp": "5mo",
+        "year": "Junior",
+        "major": "CS",
+        "body": "This class was fun. The professor is solid, genuinely engaged, and teaches really useful material. The grading is ok for the projects, progress reporting is so important tho. They are manageable"
+      },
+      {
+        "author": "Andrew Johnson",
+        "timestamp": "3y",
+        "year": "Junior",
+        "major": "CS",
+        "body": "This was by far the best class I took at UIC. Andy is a tough grader, and you have to put in a lot of work for this class. But it is immensely satisfying once you are done with it. Also, you could essentially add these projects to your portfolio as well. He has excellent knowledge about visualizations and gives very good feedbacks."
+      }
+    ],
+    "sections": [],
+    "source_url": "https://www.coursicle.com/uic/courses/CS/424/"
+  },
+  "coursicle_CS480": {
+    "course_code": "CS 480",
+    "avg_rating": "",
+    "description": "Database design, logical design, physical design. Relational databases. Recovery, concurrency control. Normalization. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): Grade of C or better in CS 251.",
+    "credits": "3",
+    "class_size": "6-100",
+    "usually_offered": "TuTh (1 hour 15 minutes), MWF (50 minutes)",
+    "attributes": "",
+    "former_titles": "",
+    "recent_semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+    "recent_professors": "Diana Herrera, Aravinda Sistla, Sean Deitz, Ouri Wolfson, Isabel Cruz",
+    "all_fields": {
+      "Recent Professors": "Diana Herrera, Aravinda Sistla, Sean Deitz, Ouri Wolfson, Isabel Cruz",
+      "Recent Semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+      "Class Size": "6-100",
+      "Credits": "3",
+      "Fall 2026 Sections": "View Fall 2026 sections of CS 480",
+      "🎥 Make TikToks for Coursicle": "We're paying $500/month to make videos about Coursicle, an app that actually helps students. Tap here to apply.",
+      "Avg. Professor Rating": "40",
+      "Description": "Database design, logical design, physical design. Relational databases. Recovery, concurrency control. Normalization. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): Grade of C or better in CS 251.",
+      "Usually Offered": "TuTh (1 hour 15 minutes), MWF (50 minutes)"
+    },
+    "professor_reviews": [
+      {
+        "author": "Ouri Wolfson",
+        "timestamp": "3y",
+        "year": "Graduate",
+        "major": "CS",
+        "body": "very bad, so confusing in the class, 50% finals and 50%mid term, exams are hard(not ) and grading is very tough"
+      },
+      {
+        "author": "Isabel Cruz",
+        "timestamp": "3y",
+        "year": "Senior",
+        "major": "CS",
+        "body": "First thing, really terrible textbook, very detailed like a bible. Her class is like a two hour marathon, it's very long and tiring. Even after all the students are totally tired from her lecturing, she keeps going until her time is up. I learned more by working the book and internet. There are only two midterms and no final, don't screw them up."
+      }
+    ],
+    "sections": [],
+    "source_url": "https://www.coursicle.com/uic/courses/CS/480/"
+  },
+  "coursicle_IDS312": {
+    "course_code": "IDS 312",
+    "avg_rating": "",
+    "description": "An integrative approach to learning how projects contribute to the strategic goals of the organization. Major issues: selecting projects, project management techniques and tools, budgeting, monitoring, risk mitigation, and interpersonal skills.",
+    "credits": "3",
+    "class_size": "25-94",
+    "usually_offered": "",
+    "attributes": "",
+    "former_titles": "",
+    "recent_semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+    "recent_professors": "Richard Potter, Jeffrey Gawel, James Treleaven, James Erickson",
+    "all_fields": {
+      "Recent Professors": "Richard Potter, Jeffrey Gawel, James Treleaven, James Erickson",
+      "Recent Semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+      "Former Title": "Bus Proj MgmtforBB Aonline",
+      "Class Size": "25-94",
+      "Credits": "3",
+      "Fall 2026 Sections": "View Fall 2026 sections of IDS 312",
+      "🎥 Make TikToks for Coursicle": "We're paying $500/month to make videos about Coursicle, an app that actually helps students. Tap here to apply.",
+      "Avg. Professor Rating": "56",
+      "Description": "An integrative approach to learning how projects contribute to the strategic goals of the organization. Major issues: selecting projects, project management techniques and tools, budgeting, monitoring, risk mitigation, and interpersonal skills.",
+      "Usually Held": "MW (9:30am-10:45am), W (6:00pm-8:30pm), MWF (1:00pm-1:50pm)"
+    },
+    "professor_reviews": [
+      {
+        "author": "Richard Potter",
+        "timestamp": "3y",
+        "year": "Senior",
+        "major": "ENGR",
+        "body": "Don't take this course with Potter. He'll spend half the lectures referring you to his (irrelevant and useless) CV, ignore all of your emails, send whiny and passive aggressive emails when students don't do well (but give zero direction on assignments), and he doesn't know how to use BlackBoard. Worst and laziest professor I've ever had."
+      },
+      {
+        "author": "Jeffrey Gawel",
+        "timestamp": "3mo",
+        "year": "Sophomore",
+        "major": "CS",
+        "body": "Avoid this professor. He posts content and assignments so late, sometimes not until Saturday, when things are due the following day on Sunday. He will also post the wrong things and then 3 days later say it was a mistake and we didn't need to do it (after half the class already completed it). Plus, he grades like 4 weeks late for everything."
+      }
+    ],
+    "sections": [],
+    "source_url": "https://www.coursicle.com/uic/courses/IDS/312/"
+  },
+  "coursicle_IDS410": {
+    "course_code": "IDS 410",
+    "avg_rating": "",
+    "description": "Computer software techniques used in business with emphasis on information management and database management systems. Data management and analysis. Major types of database management systems, query languages. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): IDS 201 or IDS 331.",
+    "credits": "3",
+    "class_size": "40-75",
+    "usually_offered": "",
+    "attributes": "",
+    "former_titles": "",
+    "recent_semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+    "recent_professors": "Michael Choi, Michael Politis, Aris Ouksel",
+    "all_fields": {
+      "Recent Professors": "Michael Choi, Michael Politis, Aris Ouksel",
+      "Recent Semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+      "Former Title": "Business Database Technology",
+      "Class Size": "40-75",
+      "Credits": "3",
+      "Fall 2026 Sections": "View Fall 2026 sections of IDS 410",
+      "🎥 Make TikToks for Coursicle": "We're paying $500/month to make videos about Coursicle, an app that actually helps students. Tap here to apply.",
+      "Avg. Professor Rating": "41",
+      "Description": "Computer software techniques used in business with emphasis on information management and database management systems. Data management and analysis. Major types of database management systems, query languages. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): IDS 201 or IDS 331.",
+      "Usually Held": "TuTh (12:30pm-1:45pm), Tu (6:30pm-9:00pm), Th (6:30pm-9:00pm)"
+    },
+    "professor_reviews": [
+      {
+        "author": "Michael Choi",
+        "timestamp": "3y",
+        "year": "Senior",
+        "major": "ACTG",
+        "body": "This teacher is TERRIBLE. He always harrases students and gives incomplete lectures. He even tells students that you dont need to know what will be on the exam. This guy literally would just read powerpoints . I hope UIC gets rid of this teacher because he is a disgrace to teaching ."
+      },
+      {
+        "author": "Yann Chang",
+        "timestamp": "3y",
+        "year": "Junior",
+        "major": "ACTG",
+        "body": "Very helpful, want you to succeed but lectures are extremely boring.  Tests are somewhat difficult, but he can be a lenient grader.  Homework is time consuming, but once again he is lenient.  He rarely gives perfect scores, but at the same time it is hard to do bad"
+      }
+    ],
+    "sections": [],
+    "source_url": "https://www.coursicle.com/uic/courses/IDS/410/"
+  },
+  "coursicle_IDS435": {
+    "course_code": "IDS 435",
+    "avg_rating": "",
+    "description": "",
+    "credits": "",
+    "class_size": "",
+    "usually_offered": "",
+    "attributes": "",
+    "former_titles": "",
+    "recent_semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+    "recent_professors": "",
+    "all_fields": {
+      "Recent Semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+      "Fall 2026 Sections": "View Fall 2026 sections of IDS 435",
+      "🎥 Make TikToks for Coursicle": "We're paying $500/month to make videos about Coursicle, an app that actually helps students. Tap here to apply.",
+      "Usually Held": "TuTh (3:30pm-4:45pm)"
+    },
+    "professor_reviews": [
+      {
+        "author": "Bradley Sturt",
+        "timestamp": "4mo",
+        "year": "Senior",
+        "major": "ACTG",
+        "body": "He is one of the best (if not the best) professor in the IDS department. His lectures is amazing with a lot of example. He knows that the material can be tough so he always double check if students are all on the same page. Just a side note, exams are weighted 80% of your overall grade but he does allow cheat sheets on the exams. Great class!"
+      },
+      {
+        "author": "Bradley Sturt",
+        "timestamp": "9mo",
+        "year": "Senior",
+        "major": "ACTG",
+        "body": "I took IDS435 with Professor Sturt during the Spring 2025 semester. He's very knowledgeable, caring, and enthusiastic which makes his lectures always great to attend. If you're someone that likes problem-solving and logic, this is a great course. A lot of what is discussed is also extremely practical in the real world."
+      }
+    ],
+    "sections": [],
+    "source_url": "https://www.coursicle.com/uic/courses/IDS/435/"
+  },
+  "coursicle_IDS472": {
+    "course_code": "IDS 472",
+    "avg_rating": "",
+    "description": "Data mining for business insights and decisions. Classification, trees, random forests, naïve Bayes, clustering, association rules, neural nets, recommender systems, text mining. Hands-on application to problems in finance, marketing, and operations. Course Information: 3 undergraduate hours. 4 graduate hours. Credit is not given for IDS 472 if the student has credit for IDS 572. Prerequisite(s): IDS 371 or the equivalent.",
+    "credits": "3",
+    "class_size": "47-75",
+    "usually_offered": "",
+    "attributes": "",
+    "former_titles": "",
+    "recent_semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+    "recent_professors": "Negar Azad, Pankhuri Malhotra, Yuheng Hu",
+    "all_fields": {
+      "Recent Professors": "Negar Azad, Pankhuri Malhotra, Yuheng Hu",
+      "Recent Semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+      "Class Size": "47-75",
+      "Credits": "3",
+      "Fall 2026 Sections": "View Fall 2026 sections of IDS 472",
+      "🎥 Make TikToks for Coursicle": "We're paying $500/month to make videos about Coursicle, an app that actually helps students. Tap here to apply.",
+      "Avg. Professor Rating": "46",
+      "Description": "Data mining for business insights and decisions. Classification, trees, random forests, naïve Bayes, clustering, association rules, neural nets, recommender systems, text mining. Hands-on application to problems in finance, marketing, and operations. Course Information: 3 undergraduate hours. 4 graduate hours. Credit is not given for IDS 472 if the student has credit for IDS 572. Prerequisite(s): IDS 371 or the equivalent.",
+      "Usually Held": "TuTh (11:00am-12:15pm), TuTh (12:30pm-1:45pm), TuTh (8:00am-9:15am)"
+    },
+    "professor_reviews": [
+      {
+        "author": "Bradley Sturt",
+        "timestamp": "3y",
+        "year": "Senior",
+        "major": "IDS",
+        "body": "This data mining class dealt with complex topics and coding them but it was very interesting content. He expects you to struggle on HW to actually learn. If you ask him a specific question about HW he will never give you the answer directly but only guide you. Overall he is great to learn from because he is truly an expert in his field; Stats & ML"
+      },
+      {
+        "author": "Negar Azad",
+        "timestamp": "10mo",
+        "year": "Junior",
+        "major": "MKTG",
+        "body": "Hands down one of the two worst profs I had at UIC. she made us write R code on paper. Like… ? \nI was going through a mental health crisis during the time I was taking this course and she knocked my grade down from A to C. When I calculated my grade based on my points and reached out to her, she threatened to give me a D. Ruined the subject for me"
+      }
+    ],
+    "sections": [],
+    "source_url": "https://www.coursicle.com/uic/courses/IDS/472/"
+  },
+  "coursicle_STAT381": {
+    "course_code": "STAT 381",
+    "avg_rating": "",
+    "description": "Graphical and tabular representation of data; Introduction to probability, random variables, sampling distributions, estimation, confidence intervals, and tests of hypotheses. Includes SAS and SPSSX applications. Course Information: Prerequisite(s): Grade of C or better in Math 181.",
+    "credits": "3",
+    "class_size": "45-120",
+    "usually_offered": "MWF (50 minutes)",
+    "attributes": "",
+    "former_titles": "",
+    "recent_semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+    "recent_professors": "Dale Embers, Jennifer Pajda-Delao, Lia Liu, Xinjie Tu",
+    "all_fields": {
+      "Recent Professors": "Dale Embers, Jennifer Pajda-Delao, Lia Liu, Xinjie Tu",
+      "Recent Semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+      "Class Size": "45-120",
+      "Credits": "3",
+      "Fall 2026 Sections": "View Fall 2026 sections of STAT 381",
+      "🎥 Make TikToks for Coursicle": "We're paying $500/month to make videos about Coursicle, an app that actually helps students. Tap here to apply.",
+      "Avg. Professor Rating": "80",
+      "Description": "Graphical and tabular representation of data; Introduction to probability, random variables, sampling distributions, estimation, confidence intervals, and tests of hypotheses. Includes SAS and SPSSX applications. Course Information: Prerequisite(s): Grade of C or better in Math 181.",
+      "Usually Offered": "MWF (50 minutes)"
+    },
+    "professor_reviews": [
+      {
+        "author": "Lia Liu",
+        "timestamp": "3y",
+        "year": "Sophomore",
+        "major": "CS",
+        "body": "Really good prof. Does alot of ex prblms nd will do hw prob if you ask even on the day its due. Study guides are directly related to tests. One question was even on the test itself. Allows one sheet of notes for second test and 2shts 4 final. I had a high C 1wk b4 final but I got a 100% on the final and ended up with an A. keep up w/ hw&quizzes"
+      },
+      {
+        "author": "Irene Tsapara",
+        "timestamp": "3y",
+        "year": "Senior",
+        "major": "CS",
+        "body": "Way too much for a basic stat course. She makes you write papers and do projects involving graphs. Does give pop quizes as well. Take Lia Liu, the other stat professor. She's much better and offers you a cheat sheet (write anything on it, even the practice exam) on the exams."
+      }
+    ],
+    "sections": [],
+    "source_url": "https://www.coursicle.com/uic/courses/STAT/381/"
+  },
+  "coursicle_STAT382": {
+    "course_code": "STAT 382",
+    "avg_rating": "",
+    "description": "Statistical computation with the SAS and R software packages: data structure, entry, and manipulation; numerical and graphical summaries; basic statistical methods; select advanced methods. Course Information: Prerequisite(s): STAT 381.",
+    "credits": "3",
+    "class_size": "21-32",
+    "usually_offered": "",
+    "attributes": "",
+    "former_titles": "",
+    "recent_semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+    "recent_professors": "Dale Embers, Jennifer Pajda-Delao, Irene Tsapara",
+    "all_fields": {
+      "Recent Professors": "Dale Embers, Jennifer Pajda-Delao, Irene Tsapara",
+      "Recent Semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+      "Former Title": "Statistical Methods and Computing",
+      "Class Size": "21-32",
+      "Credits": "3",
+      "Fall 2026 Sections": "View Fall 2026 sections of STAT 382",
+      "🎥 Make TikToks for Coursicle": "We're paying $500/month to make videos about Coursicle, an app that actually helps students. Tap here to apply.",
+      "Avg. Professor Rating": "84",
+      "Description": "Statistical computation with the SAS and R software packages: data structure, entry, and manipulation; numerical and graphical summaries; basic statistical methods; select advanced methods. Course Information: Prerequisite(s): STAT 381.",
+      "Usually Held": "MWF (12:00pm-12:50pm), MWF (11:00am-11:50am), MWF (3:00pm-3:50pm)"
+    },
+    "professor_reviews": [
+      {
+        "author": "Irene Tsapara",
+        "timestamp": "3y",
+        "year": "Junior",
+        "major": "MATH",
+        "body": "I LOVED this class. People who didn't like her either didn't do the assigned work or tried to cheat their way through the class. She WANTS you to learn, and if you genuinely try to understand the material, complete all assigned work, take notes, and ask questions you WILL do well. She wants her students to succeed. Just put in work from the START."
+      },
+      {
+        "author": "Dale Embers",
+        "timestamp": "7mo",
+        "year": "Senior",
+        "major": "COMP",
+        "body": "He's a good professor. The class and material are boring, but he's easy-going and considerate. He actually cares about the material too and teaches excitedly every day. The quizzes are based off homework so just make sure you know when they are, they're easy to study for."
+      }
+    ],
+    "sections": [],
+    "source_url": "https://www.coursicle.com/uic/courses/STAT/382/"
+  },
+  "coursicle_STAT481": {
+    "course_code": "STAT 481",
+    "avg_rating": "",
+    "description": "Linear regression, introduction to model building, analysis of variance, analysis of enumerative data, nonparametric statistics, product and system reliability, quality control. SAS and SPSSX applications. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): Grade of C or better in STAT 381.",
+    "credits": "3",
+    "class_size": "5-45",
+    "usually_offered": "",
+    "attributes": "",
+    "former_titles": "",
+    "recent_semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+    "recent_professors": "Min Yang, Yichao Wu, Jing Wang, Jennifer Pajda-Delao",
+    "all_fields": {
+      "Recent Professors": "Min Yang, Yichao Wu, Jing Wang, Jennifer Pajda-Delao",
+      "Recent Semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+      "Former Title": "Applied Statistical Methods II",
+      "Class Size": "5-45",
+      "Credits": "3",
+      "Fall 2026 Sections": "View Fall 2026 sections of STAT 481",
+      "🎥 Make TikToks for Coursicle": "We're paying $500/month to make videos about Coursicle, an app that actually helps students. Tap here to apply.",
+      "Avg. Professor Rating": "41",
+      "Description": "Linear regression, introduction to model building, analysis of variance, analysis of enumerative data, nonparametric statistics, product and system reliability, quality control. SAS and SPSSX applications. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): Grade of C or better in STAT 381.",
+      "Usually Held": "MWF (11:00am-11:50am), MWF (1:00pm-1:50pm), MWF (10:00am-10:50am)"
+    },
+    "professor_reviews": [
+      {
+        "author": "Jing Wang",
+        "timestamp": "3y",
+        "year": "Senior",
+        "major": "STAT",
+        "body": "I really enjoyed Professor Wang's style of teaching. Exams were long, but she graded it fairly. She also shows you some R code that is quite useful, and she is very knowledgeable about statistics. Recommend everyone to take her (p.s. meet her during office hours, very friendly!)."
+      },
+      {
+        "author": "Yichao Wu",
+        "timestamp": "3y",
+        "year": "Senior",
+        "major": "STAT",
+        "body": "Very hard to understand him since his accent is very heavy and speaks way too fast. He generally just flies through the notes during class and doesn't teach the concepts very well or at all. I really don't recommend him at all."
+      }
+    ],
+    "sections": [],
+    "source_url": "https://www.coursicle.com/uic/courses/STAT/481/"
+  },
+  "coursicle_IE342": {
+    "course_code": "IE 342",
+    "avg_rating": "",
+    "description": "Probability, random variables, mathematical expectation, discrete and continuous distributions, sampling distributions, estimation theory, and test of hypothesis. Course Information: Prerequisite(s): MATH 181.",
+    "credits": "3",
+    "class_size": "40-146",
+    "usually_offered": "MWF (50 minutes), TuTh (1 hour 15 minutes)",
+    "attributes": "",
+    "former_titles": "",
+    "recent_semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+    "recent_professors": "Azadeh Haghighi, Lin Li, Scott Reckinger, Heejin Jeong, David He, Quintin Williams",
+    "all_fields": {
+      "Recent Professors": "Azadeh Haghighi, Lin Li, Scott Reckinger, Heejin Jeong, David He, Quintin Williams",
+      "Recent Semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+      "Former Title": "Probability and Statistics for Engineers",
+      "Class Size": "40-146",
+      "Credits": "3",
+      "Fall 2026 Sections": "View Fall 2026 sections of IE 342",
+      "🎥 Make TikToks for Coursicle": "We're paying $500/month to make videos about Coursicle, an app that actually helps students. Tap here to apply.",
+      "Avg. Professor Rating": "57",
+      "Description": "Probability, random variables, mathematical expectation, discrete and continuous distributions, sampling distributions, estimation theory, and test of hypothesis. Course Information: Prerequisite(s): MATH 181.",
+      "Usually Offered": "MWF (50 minutes), TuTh (1 hour 15 minutes)"
+    },
+    "professor_reviews": [
+      {
+        "author": "Scott Reckinger",
+        "timestamp": "3y",
+        "year": "Senior",
+        "major": "ENGR",
+        "body": "Reckinger makes this class way harder than it needs to be. All he does is copy examples of equations from the book and does not explain it very well. Unfortunately he seems to think this is the only class as IEs we have to take."
+      },
+      {
+        "author": "David He",
+        "timestamp": "3y",
+        "year": "Junior",
+        "major": "ENGR",
+        "body": "Test questions are easy and lifted directly from the homework, but if the number you circle isn't exactly right you automatically lose half credit, regardless of whether your error was arithmetic or conceptual. Your grade will be based more on your ability to regurgitate procedures than on your understanding of the material."
+      }
+    ],
+    "sections": [],
+    "source_url": "https://www.coursicle.com/uic/courses/IE/342/"
+  },
+  "coursicle_ECE341": {
+    "course_code": "ECE 341",
+    "avg_rating": "",
+    "description": "Probability, random variables, discrete and continuous distributions, transformation of random variables, expectation, generating functions, statistical inference, hypothesis testing, estimation, random processes, stationarity, applications. Course Information: Credit is not given for ECE 341 if the student has credit for IE 342. Prerequisite(s): Grade of C or better in MATH 210.",
+    "credits": "3",
+    "class_size": "113-120",
+    "usually_offered": "MWF (50 minutes)",
+    "attributes": "",
+    "former_titles": "",
+    "recent_semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+    "recent_professors": "Mesrob Ohannessian, Ning Jin, James Kosmach",
+    "all_fields": {
+      "Recent Professors": "Mesrob Ohannessian, Ning Jin, James Kosmach",
+      "Recent Semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+      "Former Title": "Probability and Random Processes for Engineers",
+      "Class Size": "113-120",
+      "Credits": "3",
+      "Fall 2026 Sections": "View Fall 2026 sections of ECE 341",
+      "🎥 Make TikToks for Coursicle": "We're paying $500/month to make videos about Coursicle, an app that actually helps students. Tap here to apply.",
+      "Avg. Professor Rating": "71",
+      "Description": "Probability, random variables, discrete and continuous distributions, transformation of random variables, expectation, generating functions, statistical inference, hypothesis testing, estimation, random processes, stationarity, applications. Course Information: Credit is not given for ECE 341 if the student has credit for IE 342. Prerequisite(s): Grade of C or better in MATH 210.",
+      "Usually Offered": "MWF (50 minutes)"
+    },
+    "professor_reviews": [
+      {
+        "author": "James Kosmach",
+        "timestamp": "3y",
+        "year": "Junior",
+        "major": "ME",
+        "body": "Professor Kosmach's lectures can be very dry. He writes down everything straight out of the book. You will most likely learn very little from attending his lectures, you will most likely end up teaching yourself. Exams are usually very long and hard to finish. They need to bring back the old professor who taught this class."
+      },
+      {
+        "author": "Ning Jin",
+        "timestamp": "3y",
+        "year": "Junior",
+        "major": "NEUS",
+        "body": "He's pretty laid back when it comes to grading. People liked him because quizzes, midterm, and even final looks just like the homework so he's really easy. There's a group quiz every week, our group had ten of us, only three problems for the whole period. However, you can hardly learn from him, I recommend do the hw to learn and not depend on him."
+      }
+    ],
+    "sections": [],
+    "source_url": "https://www.coursicle.com/uic/courses/ECE/341/"
+  },
+  "coursicle_ENGR100": {
+    "course_code": "ENGR 100",
+    "avg_rating": "",
+    "description": "A general orientation course on careers in the engineering profession. Discussion of college advising procedures. Required of all engineering students. Course Information: Satisfactory/Unsatisfactory grading only. No graduation credit. Should be taken in the first semester after acceptance into the College of Engineering. Prerequisite(s): Admission to the College of Engineering.",
+    "credits": "1",
+    "class_size": "105-800",
+    "usually_offered": "",
+    "attributes": "",
+    "former_titles": "CS Success Seminar-FYF, BME Success Seminar-FYF, MIE Success Seminar-FYF, ECE Success Seminar-FYF, CME Success Seminar-FYF, CHE Success Seminar-FYF, MIE Success Seminar Freshman, ECE Success Seminar Freshman, CME Success Seminar Freshman, CS Success Seminar Freshman, CHE Success Seminar Freshman, BME Success Seminar Freshman, Engr Success Seminar-online, CS Success Seminar- Transfer, Engineering Success Seminar, CHE Success Seminar- Transfer, ECE Success Seminar- Transfer, CME Success Seminar- Transfer, MIE Success Seminar- Transfer, BME Success Seminar- Transfer, CME Success Seminar, CS Success Seminar, ECE Success Seminar, BME Success Seminar, CHE Success Seminar, MIE Success Seminar, CSENGR Orientation- Fresh, CMEENGR Orientation- Fresh, MIEENGR Orientation- Fresh, CHEENGR Orientation- Fresh, ECEENGR Orientation- Fresh, CSENGR Orientation-no Fresh, ECEENGR Orientation-no Fresh, CMEENGR Orientation-no Fresh, MIEENGR Orientation-no Fresh, BMEENGR Orientation- Fresh, BMEENGR Orientation-no Fresh, Engineering Orientation, CHEENGR Orientation-no Fresh, Engr Orientation-Freshmen Only, Engr Orientation - No Freshmen, Engr Orientation - Freshmen, Engr Orientation - Not Freshme",
+    "recent_semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+    "recent_professors": "Simona Narubin",
+    "all_fields": {
+      "Recent Professors": "Simona Narubin",
+      "Recent Semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+      "Former Titles": "CS Success Seminar-FYF, BME Success Seminar-FYF, MIE Success Seminar-FYF, ECE Success Seminar-FYF, CME Success Seminar-FYF, CHE Success Seminar-FYF, MIE Success Seminar Freshman, ECE Success Seminar Freshman, CME Success Seminar Freshman, CS Success Seminar Freshman, CHE Success Seminar Freshman, BME Success Seminar Freshman, Engr Success Seminar-online, CS Success Seminar- Transfer, Engineering Success Seminar, CHE Success Seminar- Transfer, ECE Success Seminar- Transfer, CME Success Seminar- Transfer, MIE Success Seminar- Transfer, BME Success Seminar- Transfer, CME Success Seminar, CS Success Seminar, ECE Success Seminar, BME Success Seminar, CHE Success Seminar, MIE Success Seminar, CSENGR Orientation- Fresh, CMEENGR Orientation- Fresh, MIEENGR Orientation- Fresh, CHEENGR Orientation- Fresh, ECEENGR Orientation- Fresh, CSENGR Orientation-no Fresh, ECEENGR Orientation-no Fresh, CMEENGR Orientation-no Fresh, MIEENGR Orientation-no Fresh, BMEENGR Orientation- Fresh, BMEENGR Orientation-no Fresh, Engineering Orientation, CHEENGR Orientation-no Fresh, Engr Orientation-Freshmen Only, Engr Orientation - No Freshmen, Engr Orientation - Freshmen, Engr Orientation - Not Freshme",
+      "Class Size": "105-800",
+      "Credits": "1",
+      "Fall 2026 Sections": "View Fall 2026 sections of ENGR 100",
+      "🎥 Make TikToks for Coursicle": "We're paying $500/month to make videos about Coursicle, an app that actually helps students. Tap here to apply.",
+      "Avg. Professor Rating": "27",
+      "Description": "A general orientation course on careers in the engineering profession. Discussion of college advising procedures. Required of all engineering students. Course Information: Satisfactory/Unsatisfactory grading only. No graduation credit. Should be taken in the first semester after acceptance into the College of Engineering. Prerequisite(s): Admission to the College of Engineering.",
+      "Typical Class Length": "50 minutes, 1 hour 15 minutes"
+    },
+    "professor_reviews": [
+      {
+        "author": "Simona Narubin",
+        "timestamp": "3y",
+        "year": "First-year",
+        "major": "ENGR",
+        "body": "Office hour link doesn't work, she hates talking to students. Don't become a professor if you are going to complain about students asking for help. She has no sympathy at all and treats people like robots. What a great introduction to engineering."
+      },
+      {
+        "author": "Simona Narubin",
+        "timestamp": "4mo",
+        "year": "Sophomore",
+        "major": "CS",
+        "body": "Worst professor ever, yells at students with no respect. Surprised she hasn't been fired from uic yet."
+      }
+    ],
+    "sections": [],
+    "source_url": "https://www.coursicle.com/uic/courses/ENGR/100/"
+  },
+  "coursicle_ENGR101": {
+    "course_code": "ENGR 101",
+    "avg_rating": "",
+    "description": "General orientation course on careers in engineering with a focus on internship activities. Course Information: Satisfactory/Unsatisfactory grading only. No graduation credit. Required for participation in the Guaranteed Paid Internship Program (GPIP). Prerequisite(s): Open only to freshmen. Recommended background: Intended for freshmen who are participating in the Freshman Engineering Success Program.",
+    "credits": "1",
+    "class_size": "25-413",
+    "usually_offered": "",
+    "attributes": "",
+    "former_titles": "CME Success Seminar- Transfer, MIE Success Seminar- Transfer, CS Success Seminar- Transfer, BME Success Seminar- Transfer, CHE Success Seminar- Transfer, MIE Success Seminar Non- Frshmn, CHE Success Seminar Non- Frshmn, CS Success Seminar Non- Frshmn, ECE Success Seminar Non- Frshmn, BME Success Seminar Non- Frshmn, CME Success Seminar Non- Frshmn, MIE Success Seminar, CS Success Seminar, BME Success Seminar, CME Success Seminar, ECE Success Seminar, CHE Success Seminar, Engineering Success Seminar",
+    "recent_semesters": "Fall 2026, Spring 2026, Spring 2022, Spring 2020, Fall 2018",
+    "recent_professors": "Miiri Kotche",
+    "all_fields": {
+      "Recent Professors": "Miiri Kotche",
+      "Recent Semesters": "Fall 2026, Spring 2026, Spring 2022, Spring 2020, Fall 2018",
+      "Former Titles": "CME Success Seminar- Transfer, MIE Success Seminar- Transfer, CS Success Seminar- Transfer, BME Success Seminar- Transfer, CHE Success Seminar- Transfer, MIE Success Seminar Non- Frshmn, CHE Success Seminar Non- Frshmn, CS Success Seminar Non- Frshmn, ECE Success Seminar Non- Frshmn, BME Success Seminar Non- Frshmn, CME Success Seminar Non- Frshmn, MIE Success Seminar, CS Success Seminar, BME Success Seminar, CME Success Seminar, ECE Success Seminar, CHE Success Seminar, Engineering Success Seminar",
+      "Class Size": "25-413",
+      "Credits": "1",
+      "Fall 2026 Sections": "View Fall 2026 sections of ENGR 101",
+      "🎥 Make TikToks for Coursicle": "We're paying $500/month to make videos about Coursicle, an app that actually helps students. Tap here to apply.",
+      "Avg. Professor Rating": "53",
+      "Description": "General orientation course on careers in engineering with a focus on internship activities. Course Information: Satisfactory/Unsatisfactory grading only. No graduation credit. Required for participation in the Guaranteed Paid Internship Program (GPIP). Prerequisite(s): Open only to freshmen. Recommended background: Intended for freshmen who are participating in the Freshman Engineering Success Program.",
+      "Typical Class Length": "50 minutes, 1 hour 15 minutes"
+    },
+    "professor_reviews": [
+      {
+        "author": "Simona Narubin",
+        "timestamp": "3y",
+        "year": "Junior",
+        "major": "CS",
+        "body": "Prof Narubin wasn't very organized throughout the semester and was condescending in emails. When asking a question about the ENGR email in the beginning of the semester, she responded, \"Have you looked in the Blackboard content? On the syllabus? In every single announcement made for the course? At the bottom of every page in the learning modules?\""
+      },
+      {
+        "author": "Miiri Kotche",
+        "timestamp": "3y",
+        "year": "Junior",
+        "major": "CS",
+        "body": "This class was overall ok. She just read the powerpoints she made like 20 minutes before class. Really boring but you have to take it. Three proposals and 5 quizzes in the class. Make sure to study for the quizzes if you want to get an A."
+      }
+    ],
+    "sections": [],
+    "source_url": "https://www.coursicle.com/uic/courses/ENGR/101/"
+  },
+  "coursicle_MATH180": {
+    "course_code": "MATH 180",
+    "avg_rating": "",
+    "description": "Differentiation, curve sketching, maximum-minimum problems, related rates, mean-value theorem, antiderivative, Riemann integral, logarithm, and exponential functions. Course Information: Prior credit in MATH 165 or MATH 170 will be lost with subsequent completion of MATH 180. Prerequisite(s): Grade of C or better in MATH 121 or appropriate performance on the department placement test. Class Schedule Information: During the fall and spring terms, combined section final exam will be held on Thursday of finals week from 1 to 3 p.m. To be properly registered, students must enroll in one Discussion/Recitation and one Lecture.",
+    "credits": "",
+    "class_size": "17-168",
+    "usually_offered": "TuTh (50 minutes), MWF (50 minutes)",
+    "attributes": "Natural World - No Lab",
+    "former_titles": "",
+    "recent_semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+    "recent_professors": "Mercer Bridges, John Steenbergen, Martina Bode, Sung Lee, Matthew Kehoe, Tian Wang, Bradley Sain, Sean Rogers, Ahmet Demir, Yanlong Hao, Christopher Perez, Matthew Lee, Andrea Carter, Margaret Hoeller, Shijie Shang, Victor Jatoba",
+    "all_fields": {
+      "Recent Professors": "Mercer Bridges, John Steenbergen, Martina Bode, Sung Lee, Matthew Kehoe, Tian Wang, Bradley Sain, Sean Rogers, Ahmet Demir, Yanlong Hao, Christopher Perez, Matthew Lee, Andrea Carter, Margaret Hoeller, Shijie Shang, Victor Jatoba",
+      "Recent Semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+      "Class Size": "17-168",
+      "Fall 2026 Sections": "View Fall 2026 sections of MATH 180",
+      "🎥 Make TikToks for Coursicle": "We're paying $500/month to make videos about Coursicle, an app that actually helps students. Tap here to apply.",
+      "Avg. Professor Rating": "84",
+      "Description": "Differentiation, curve sketching, maximum-minimum problems, related rates, mean-value theorem, antiderivative, Riemann integral, logarithm, and exponential functions. Course Information: Prior credit in MATH 165 or MATH 170 will be lost with subsequent completion of MATH 180. Prerequisite(s): Grade of C or better in MATH 121 or appropriate performance on the department placement test. Class Schedule Information: During the fall and spring terms, combined section final exam will be held on Thursday of finals week from 1 to 3 p.m. To be properly registered, students must enroll in one Discussion/Recitation and one Lecture.",
+      "Usually Offered": "TuTh (50 minutes), MWF (50 minutes)",
+      "Attributes": "Natural World - No Lab"
+    },
+    "professor_reviews": [
+      {
+        "author": "Jenny Ross",
+        "timestamp": "3y",
+        "year": "First-year",
+        "major": "BIOS",
+        "body": "One of the best math professor in UIC. I would highly recommend \"yall\" to take her class. She's a super helpful professor that helps yall a lot in class."
+      },
+      {
+        "author": "Mercer Bridges",
+        "timestamp": "3y",
+        "year": "Junior",
+        "major": "BIOS",
+        "body": "Classes started off rough but he was willing to help out. He's really funny and that really helps uplift a class before an exam. He even makes sure to give students 1 on 1 time during office hours for help. Don't sleep on him."
+      }
+    ],
+    "sections": [],
+    "source_url": "https://www.coursicle.com/uic/courses/MATH/180/"
+  },
+  "coursicle_MATH181": {
+    "course_code": "MATH 181",
+    "avg_rating": "",
+    "description": "Techniques of integration, arc length, solids of revolution, applications, polar coordinates, parametric equations, infinite sequences and series, power series. Course Information: Prerequisite(s): Grade of C or better in MATH 180. Class Schedule Information: During the fall and spring terms, combined section final exam will be held on Thursday of finals week from 3:30 to 5:30 p.m. To be properly registered, students must enroll in one Discussion/Recitation and one Lecture.",
+    "credits": "",
+    "class_size": "15-132",
+    "usually_offered": "TuTh (50 minutes), MWF (50 minutes)",
+    "attributes": "Natural World - No Lab",
+    "former_titles": "",
+    "recent_semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+    "recent_professors": "Vi Diep, Andrew Shulman, Matthew Devilbiss, Paul Rapoport, Jesse Williams, Zihan Xia, Abbas Jaffary, William Adkisson, Amelia Pompilio, Mark Hertz, Jack Hafer, McKinley Meyer, Yuxiang Liu, Aaron Messerla, John Steenbergen, Paolo Degiorgi",
+    "all_fields": {
+      "Recent Professors": "Vi Diep, Andrew Shulman, Matthew Devilbiss, Paul Rapoport, Jesse Williams, Zihan Xia, Abbas Jaffary, William Adkisson, Amelia Pompilio, Mark Hertz, Jack Hafer, McKinley Meyer, Yuxiang Liu, Aaron Messerla, John Steenbergen, Paolo Degiorgi",
+      "Recent Semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+      "Class Size": "15-132",
+      "Fall 2026 Sections": "View Fall 2026 sections of MATH 181",
+      "🎥 Make TikToks for Coursicle": "We're paying $500/month to make videos about Coursicle, an app that actually helps students. Tap here to apply.",
+      "Avg. Professor Rating": "64",
+      "Description": "Techniques of integration, arc length, solids of revolution, applications, polar coordinates, parametric equations, infinite sequences and series, power series. Course Information: Prerequisite(s): Grade of C or better in MATH 180. Class Schedule Information: During the fall and spring terms, combined section final exam will be held on Thursday of finals week from 3:30 to 5:30 p.m. To be properly registered, students must enroll in one Discussion/Recitation and one Lecture.",
+      "Usually Offered": "TuTh (50 minutes), MWF (50 minutes)",
+      "Attributes": "Natural World - No Lab"
+    },
+    "professor_reviews": [
+      {
+        "author": "Evangelos Kobotis",
+        "timestamp": "3y",
+        "year": "Sophomore",
+        "major": "CS",
+        "body": "The work load for this class is higher than other CALC 2 classes because he likes to make students memorize things he will never test them on and he will introduce topics not on the syllabus. He doesn't follow the book and which would be great if we could understand him. If he is having a bad day you notice it easily. Will never take him again."
+      },
+      {
+        "author": "Vi Diep",
+        "timestamp": "3y",
+        "year": "Sophomore",
+        "major": "ME",
+        "body": "average teacher. wasnt amazing, but wasnt horrible. if you want an A you have to do a fair amount of self study. she can be confusing sometimes and i had to seek outside help. wouldnt recommend if you have other options. crowdmark can be annoying and she doesnt accept late work."
+      }
+    ],
+    "sections": [],
+    "source_url": "https://www.coursicle.com/uic/courses/MATH/181/"
+  },
+  "coursicle_MATH210": {
+    "course_code": "MATH 210",
+    "avg_rating": "",
+    "description": "Vectors in space, functions of several variables, partial differential and optimization, multiple integrals, vector fields, Greenâ€™s Theorem, Stokes Theorem. Course Information: Prerequisite(s): Grade of C or better in MATH 181. Class Schedule Information: During the fall and spring terms, combined section final exam will be held on Thursday of finals week from 1 to 3 p.m. To be properly registered, students must enroll in one Discussion and one Lecture. Natural World - No Lab course. This course may also involve synchronous evening assessments at times throughout the semester. Details will be made available on the course syllabus at the start of the term.",
+    "credits": "",
+    "class_size": "18-127",
+    "usually_offered": "",
+    "attributes": "Natural World - No Lab",
+    "former_titles": "",
+    "recent_semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+    "recent_professors": "Evangelos Kobotis, Shokouh Pourarian, Saleh Hamdan, Fnu Kumar, Gerard Awanou, Mimi Dai, Marcus Michelen, Nathan Jones, Rankeya Datta, Daniel Claveras, Alexey Cheskidov, Rafail Abramov, Michael Greenblatt, Vi Diep, Eric Albers, Mark Grant",
+    "all_fields": {
+      "Recent Professors": "Evangelos Kobotis, Shokouh Pourarian, Saleh Hamdan, Fnu Kumar, Gerard Awanou, Mimi Dai, Marcus Michelen, Nathan Jones, Rankeya Datta, Daniel Claveras, Alexey Cheskidov, Rafail Abramov, Michael Greenblatt, Vi Diep, Eric Albers, Mark Grant",
+      "Recent Semesters": "Fall 2026, Spring 2026, Fall 2024, Spring 2024, Fall 2023",
+      "Class Size": "18-127",
+      "Fall 2026 Sections": "View Fall 2026 sections of MATH 210",
+      "🎥 Make TikToks for Coursicle": "We're paying $500/month to make videos about Coursicle, an app that actually helps students. Tap here to apply.",
+      "Avg. Professor Rating": "66",
+      "Description": "Vectors in space, functions of several variables, partial differential and optimization, multiple integrals, vector fields, Greenâ€™s Theorem, Stokes Theorem. Course Information: Prerequisite(s): Grade of C or better in MATH 181. Class Schedule Information: During the fall and spring terms, combined section final exam will be held on Thursday of finals week from 1 to 3 p.m. To be properly registered, students must enroll in one Discussion and one Lecture. Natural World - No Lab course. This course may also involve synchronous evening assessments at times throughout the semester. Details will be made available on the course syllabus at the start of the term.",
+      "Typical Class Length": "50 minutes",
+      "Attributes": "Natural World - No Lab"
+    },
+    "professor_reviews": [
+      {
+        "author": "Evangelos Kobotis",
+        "timestamp": "3y",
+        "year": "Junior",
+        "major": "ENGR",
+        "body": "He's definitely passionate about his subject. I loved him in Calc 1, and couldn't get into his class for Calc 2 but I got in for Calc 3. Bad idea. He goes way too fast to understand anything, and barely does examples on the board. He's too obsessed with chewing gum and texting, which has stopped the lecture mid-sentence before. Be careful. No book!"
+      },
+      {
+        "author": "Kevin Whyte",
+        "timestamp": "3y",
+        "year": "Junior",
+        "major": "MCS",
+        "body": "I would recommend that you do NOT take this professor, he knows his stuff and he will help.  But learning from him is difficult because when he speaks, he whispers.  He knows about his problem too but he doesn't seem to do anything about it.  If your taking him, read the book and learn from it, it will be your teacher for this semester."
+      }
+    ],
+    "sections": [],
+    "source_url": "https://www.coursicle.com/uic/courses/MATH/210/"
+  },
+  "coursicle_MATH218": {
+    "course_code": "MATH 218",
+    "avg_rating": "",
+    "description": "",
+    "credits": "",
+    "class_size": "",
+    "usually_offered": "MWF (50 minutes)",
+    "attributes": "",
+    "former_titles": "",
+    "recent_semesters": "Fall 2026, Spring 2026",
+    "recent_professors": "",
+    "all_fields": {
+      "Recent Semesters": "Fall 2026, Spring 2026",
+      "Fall 2026 Sections": "View Fall 2026 sections of MATH 218",
+      "🎥 Make TikToks for Coursicle": "We're paying $500/month to make videos about Coursicle, an app that actually helps students. Tap here to apply.",
+      "Usually Offered": "MWF (50 minutes)"
+    },
+    "professor_reviews": [],
+    "sections": [],
+    "source_url": "https://www.coursicle.com/uic/courses/MATH/218/"
+  }
+}

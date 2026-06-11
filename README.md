@@ -25,16 +25,16 @@ I have chosen Data Science Courses for UIC DS students since it's a relatively n
      Be specific: include URLs, subreddit names, forum thread titles, or file names.
      Aim for variety — sources that together cover different subtopics or perspectives. -->
 
-| # | Source | Type | URL or file path |
-|---|--------|------|-----------------|
+| # | Source | Description | URL or location |
+|---|--------|-------------|-----------------|
 | 1 | Rate my professor| Blog | https://www.ratemyprofessors.com/school/1111|
-| 2 | Reddit |Blog  |https://www.reddit.com/r/uichicago/ |
-| 3 | UIC catalog |School website | https://catalog.uic.edu/ucat/
+| 2 | Reddit |Blog  |https://old.reddit.com |
+| 3 | UIC catalog |School website | https://catalog.uic.edu/ucat/|
 | 4 | UIC grade distribution | School website | https://uicgrades.com/ |
-| 5 | UIC Data Science Major Info Page| School website| https://cs.uic.edu/undergraduate/data-science-major/ |
+| 5 | UIC Data Science Major Info Page| School website| https://catalog.uic.edu/ucat/colleges-depts/engineering/cs/bs-data-science-computer-science/
 | 6 | Coursicle | Blog | https://www.coursicle.com/uic/|
 | 7 | LinkedIn UIC| Blog |https://www.linkedin.com/school/thisisuic/posts/?feedView=all |
-| 8 | Medium | Blog | https://medium.com/search?q=uic|
+| 8 | UIC Easy Classes | Blog | https://uicgrades.com/findEasyCourses.html |
 | 9 | Student Orgs |School website | https://cs.uic.edu/undergraduate      student-organizations/|
 | 10 | ULoop |Blog |https://illinois.uloop.com/professors |
 
@@ -89,6 +89,7 @@ The chunk count is determined by running the preprocessing + chunking pipeline o
 - all-MiniLM-L6-v2 (384 dimensions)
 
 **Production tradeoff reflection:**
+
 -There are other models that do have fast speeds and are high quality, for example: Open AI's text embedding model 3-small would be great since its setup is simple and is great for general uses, or cohere embed-english v3.0 for production RAG systems, like this one specifically. However, they are not free. 
 ---
 
