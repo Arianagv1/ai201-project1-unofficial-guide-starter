@@ -89,7 +89,7 @@ The chunk count is determined by running the preprocessing + chunking pipeline o
 - all-MiniLM-L6-v2 (384 dimensions)
 
 **Production tradeoff reflection:**
-There are other models that do have fast speeds and are high quality, for example: Open AI's text embedding model 3-small would be great since its setup is simple and is great for general uses, or cohere embed-english v3.0 for production RAG systems, like this one specifically. However, they are not free. 
+-There are other models that do have fast speeds and are high quality, for example: Open AI's text embedding model 3-small would be great since its setup is simple and is great for general uses, or cohere embed-english v3.0 for production RAG systems, like this one specifically. However, they are not free. 
 ---
 
 ## Grounded Generation
@@ -115,15 +115,10 @@ There are other models that do have fast speeds and are high quality, for exampl
 
 | # | Question | Expected answer | System response (summarized) | Retrieval quality | Response accuracy |
 |---|----------|-----------------|------------------------------|-------------------|-------------------|
-Tier One: Happy Paths 
 | 1 |What are the prereqs for CS251? | UIC Catalog chunk with full prereq list|
 | 2 | Who teaches CS251?| Professors names |
-
-Tier Two: Medium Difficulty
 | 3 | Is Professor Hallenback known for being generous with grading?| RMP reviews mentioning grading |
 | 4 | What skills will I learn in IDS 435? | Course description |
-
-Tier Three: Hard Difficulty
 | 5 | What do current students say about workload in CS480 or Cs 342?| Multiple Reddit/ RMP reviews synthesized |
 
 **Retrieval quality:** Relevant / Partially relevant / Off-target  

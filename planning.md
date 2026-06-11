@@ -1,12 +1,5 @@
 # Project 1 Planning: The Unofficial Guide
 
-> Write this document before you write any pipeline code.
-> Your spec and architecture diagram are what you'll use to direct AI tools (Claude, Copilot, etc.) to generate your implementation — the more specific they are, the more useful the generated code will be.
-> Update the Retrieval Approach and Chunking Strategy sections if you change your approach during implementation.
-> Update this file before starting any stretch features.
-
----
-
 ## Domain
 
 <!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
@@ -92,16 +85,10 @@ There are other models that do have fast speeds and are high quality, for exampl
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-
-Tier One: Happy Paths 
 | 1 |What are the prereqs for CS251? | UIC Catalog chunk with full prereq list|
 | 2 | Who teaches CS251?| Professors names |
-
-Tier Two: Medium Difficulty
 | 3 | Is Professor Hallenback known for being generous with grading?| RMP reviews mentioning grading |
 | 4 | What skills will I learn in IDS 435? | Course description |
-
-Tier Three: Hard Difficulty
 | 5 | What do current students say about workload in CS480 or Cs 342?| Multiple Reddit/ RMP reviews synthesized |
 
 ---
@@ -120,11 +107,24 @@ Tier Three: Hard Difficulty
 
 ## Architecture
 
-<!-- Draw a diagram of your pipeline showing the five stages:
-     Document Ingestion → Chunking → Embedding + Vector Store → Retrieval → Generation
-     Label each stage with the tool or library you're using.
-     You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
-     You'll use this diagram as context when prompting AI tools to implement each stage. -->
+graph LR
+    A["📄 Document Ingestion"] -->|Raw text from<br/>10 sources| B["✂️ Chunking"]
+    B -->|Semantic chunks<br/>800 chars + 200 overlap| C["🔢 Embedding"]
+    C -->|all-MiniLM-L6-v2<br/>384 dimensions| D["🗄️ Vector Store"]
+    D -->|ChromaDB<br/>Cosine similarity| E["🔍 Retrieval"]
+    E -->|top-k=5-8<br/>chunks + metadata| F["🧠 Generation"]
+    F -->|Groq Llama 3.3 70B| G["💬 Student Answer"]
+    
+    H["Sources:<br/>• UIC Catalog<br/>• Grade Distribution<br/>• Reddit<br/>• RateMyProfessor<br/>• LinkedIn"] -.->|Raw documents| A
+    
+    style A fill:#e1f5ff
+    style B fill:#fff3e0
+    style C fill:#f3e5f5
+    style D fill:#e8f5e9
+    style E fill:#fce4ec
+    style F fill:#fff9c4
+    style G fill:#f1f8e9
+    style H fill:#eeeeee
 
 ---
 
