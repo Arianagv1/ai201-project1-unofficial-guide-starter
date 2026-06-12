@@ -109,22 +109,8 @@ There are other models that do have fast speeds and are high quality, for exampl
 
 ![Pipeline Diagram](codepath_proj1_pipeline.png)
 
+## Demo
+
+https://app.screencastify.com/watch/KfbMFnBumKKQPAwCm3wL
+
 ---
-
-## AI Tool Plan
-
-<!-- For each part of the pipeline below, describe:
-     - Which AI tool you plan to use (Claude, Copilot, ChatGPT, etc.)
-     - What you'll give it as input (which sections of this planning.md, which requirements)
-     - What you expect it to produce
-     - How you'll verify the output matches your spec
-
-     "I'll use AI to help me code" is not a plan.
-     "I'll give Claude my Chunking Strategy section and ask it to implement chunk_text()
-     with my specified chunk size and overlap" is a plan. -->
-
-**Milestone 3 — Ingestion and chunking:**
-
-**Milestone 4 — Embedding and retrieval:**
-
-**Milestone 5 — Generation and interface:**

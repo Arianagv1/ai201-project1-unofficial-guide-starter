@@ -1,18 +1,8 @@
 # The Unofficial Guide — Project 1
 
-> **How to use this template:**
-> Complete each section *after* you've built and tested the corresponding part of your system.
-> Do not write placeholder text — if a section isn't done yet, leave it blank and come back.
-> Every section below is required for submission. One-liners will not receive full credit.
-
 ---
 
 ## Domain
-
-<!-- What topic or category of knowledge does your system cover?
-     Why is this knowledge valuable, and why is it hard to find through official channels?
-     Example: "Student reviews of CS professors at [university] — useful because official
-     course descriptions don't reflect teaching style, exam difficulty, or workload." -->
 
 I have chosen Data Science Courses for UIC DS students since it's a relatively new program in the CS department. Because of this, I would like to help UIC DS students find courses that are manageable, genuinely interesting, and well-taught, which support workload balance and mental wellness, not just degree completion. 
 
@@ -20,10 +10,6 @@ I have chosen Data Science Courses for UIC DS students since it's a relatively n
 ---
 
 ## Document Sources
-
-<!-- List every source you collected documents from.
-     Be specific: include URLs, subreddit names, forum thread titles, or file names.
-     Aim for variety — sources that together cover different subtopics or perspectives. -->
 
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
@@ -41,13 +27,6 @@ I have chosen Data Science Courses for UIC DS students since it's a relatively n
 ---
 
 ## Chunking Strategy
-
-<!-- Describe your chunking approach with enough specificity that someone else could reproduce it.
-     Include:
-     - Chunk size (characters or tokens) and why that size fits your documents
-     - Overlap size and why (or why not) you used overlap
-     - Any preprocessing you did before chunking (e.g., stripping HTML, removing headers)
-     - What your final chunk count was across all documents -->
 
 Because of the nature of my program, my two content types (school catalogs or 
 blogs/reviews) its best to do a mix for chunking strategy. For example, short reviews would have a more optimal chunk size of 300-500 characters for a full review. Because splitting could lose context and tone. For long catalogs, splitting prevents overwhelming context noise, and keeping a small chunk strategy would dilute semantic relevance. 
@@ -79,75 +58,46 @@ The chunk count is determined by running the preprocessing + chunking pipeline o
 
 ## Embedding Model
 
-<!-- Name the embedding model you used and explain your choice.
-     Then answer: if you were deploying this system for real users and cost wasn't a constraint,
-     what tradeoffs would you weigh in choosing a different model?
-     Consider: context length limits, multilingual support, accuracy on domain-specific text,
-     latency, and local vs. API-hosted. -->
-
 **Model used:**
 - all-MiniLM-L6-v2 (384 dimensions)
 
 **Production tradeoff reflection:**
-
 -There are other models that do have fast speeds and are high quality, for example: Open AI's text embedding model 3-small would be great since its setup is simple and is great for general uses, or cohere embed-english v3.0 for production RAG systems, like this one specifically. However, they are not free. 
 ---
 
 ## Grounded Generation
 
-<!-- Explain how your system enforces grounding — how does it prevent the LLM from answering
-     beyond the retrieved documents?
-     Describe both your system prompt (what instruction you gave the model) and any structural
-     choices (e.g., how you formatted the context, whether you filtered low-relevance chunks).
-     Do not just say "I told it to use the documents" — show the actual instruction or explain
-     the mechanism. -->
-
 **System prompt grounding instruction:**
-
+The key engineering challenge here is that my prompt must instruct the LLM to answer from the retrieved context only, not from its general training knowledge. Without this, my system will produce confident-sounding answers that have nothing to do with my JSON documents that I intended to use for the student DS major application. 
 **How source attribution is surfaced in the response:**
-
+I instructed the LLM's response to name which document(s) the answer came from, either by instructing the model to cite sources or by appending retrieved source names programmatically after generation. 
 ---
 
 ## Evaluation Report
 
-<!-- Run your 5 test questions from planning.md through your system and record the results.
-     Be honest — a partially accurate or inaccurate result that you explain well is more
-     valuable than a suspiciously perfect result. -->
-
 | # | Question | Expected answer | System response (summarized) | Retrieval quality | Response accuracy |
 |---|----------|-----------------|------------------------------|-------------------|-------------------|
-| 1 |What are the prereqs for CS251? | UIC Catalog chunk with full prereq list|
-| 2 | Which professor is best for STAT 381?| Professors names or ULoop |
-| 3 | Who teaches CS251?| UIC catalog or Professor search |
-| 4 | What skills will I learn in IDS 435? | Course description |
-| 5 | What do current students say about workload in CS480 or Cs 342?| Multiple Reddit/ RMP reviews synthesized |
-
-
-**Retrieval quality:** Relevant / Partially relevant / Off-target  
-**Response accuracy:** Accurate / Partially accurate / Inaccurate
+| 1 |What are the prereqs for CS251? | UIC Catalog chunk with full prereq list| CS211, CS141 | Releveant & Accurate |
+| 2 | Which professor is best for STAT 381?| Professors names or ULoop | Lia Liu recommended based on student reviews | Releveant & Accurate |
+| 3 | Who teaches CS141?| UIC catalog or Professor search | Lists 9 recent professors | Releveant & Accurate |
+| 4 |What is the description of IDS 435?| Course description | Optimization methods (etc) | Partially Relevant & Accurate |
+| 5 | Do students like CS 480?| Multiple Reddit/ RMP reviews synthesized | Mixed but mostly negative reviews | Partially relevant & Accurate| 
 
 ---
 
 ## Failure Case Analysis
 
-<!-- Identify at least one question where retrieval or generation did not work as expected.
-     Write a specific explanation of *why* it failed, tied to a part of the pipeline.
-
-     "The answer was wrong" is not an explanation.
-
-     "The relevant information was split across a chunk boundary, so retrieval returned
-     only half the context — the model didn't have enough to answer correctly" is an explanation.
-
-     "The embedding model treated the professor's nickname as out-of-vocabulary and returned
-     results from an unrelated review" is an explanation. -->
-
 **Question that failed:**
+I originally had one of my questions framed as "What skills will I learn taking IDS 435?".
 
 **What the system returned:**
+The system kept returning that it did not have enough information to produce an answer, which was a guardrail I kept as to not hallucinate answers. 
 
 **Root cause (tied to a specific pipeline stage):**
+Although I had substantial information about this course across different JSON files I scraped from catalogs, reviews on ULoop and coursicle, I believe the issue here was because the relevant information was split across a chunk boundary so retrieval only returned half the context. 
 
 **What you would change to fix it:**
+The fix would be applied at the retrieval stage. After retrieving the top-k chunks by similarity, the pipeline should automatically fetch all remaining chunks from the same source document (e.g. all chunks of `coursicle_IDS435` and `catalog_IDS435`) and append them to the context window before passing to the LLM. This ensures that if a course description is split across chunk 0 and chunk 1, the LLM sees the complete text rather than a truncated half. A secondary fix would be to increase chunk overlap from 200 to 300–400 characters specifically for short structured fields like course descriptions, reducing the likelihood of a key phrase like "skills" or "you will learn" landing exactly at a boundary.
 
 ---
 
@@ -157,30 +107,26 @@ The chunk count is determined by running the preprocessing + chunking pipeline o
      Answer both questions with at least 2–3 sentences each. -->
 
 **One way the spec helped you during implementation:**
+Using planning.md during production helped me understand a lot of new terminology- chunks, scraping, each crucial step of the entire LLM and retrieval process, and gave me new insights on the RAG implementation. I learned a lot about how to create a good JSON file and I also learned about the skills it took to make sure that the resources I had were balanced in structured and unstructured formats from catalogs to reviews, and the different chunking approaches I would need to evaluate for each one. I also appreciated being able to debug each step at a time since I spent a lot of time outlining each one.
 
 **One way your implementation diverged from the spec, and why:**
+My original spec planned to use RateMyProfessors and the official Reddit API as two of my unstructured opinion sources. During implementation, RateMyProfessors was intermittently down and Reddit's app registration process blocked API access, so I pivoted to scraping `old.reddit.com` directly using `requests` and `BeautifulSoup`, and replaced RateMyProfessors with Uloop — a student review platform specific to UIC. This actually improved the quality of the unstructured data since Uloop reviews are UIC-specific and include structured sub-ratings (helpfulness, clarity, easiness) alongside free-text comments, making them more useful for RAG retrieval than the more generic RateMyProfessors format.
 
 ---
 
 ## AI Usage
 
-<!-- Describe at least 2 specific instances where you used an AI tool during this project.
-     For each: what did you give the AI as input, what did it produce, and what did you
-     change, override, or direct differently?
-
-     "I used Claude to help me code" is not sufficient.
-     "I gave Claude my Chunking Strategy section from planning.md and asked it to implement
-     chunk_text(). It returned a function using a fixed character split. I overrode the
-     chunk size from 500 to 200 because my documents are short reviews, not long guides." -->
-
 **Instance 1**
+- *What I gave the AI:* My LLM system prompt and a set of failing query outputs showing the model returning "I don't have enough information" even when the retrieved chunks clearly contained the answer.
+- *What it produced:* A diagnosis identifying that the instruction "Do NOT use your general training knowledge" was being interpreted too conservatively by the model, causing it to refuse synthesis even from the provided context. It rewrote the system prompt with softer grounding rules and added explicit instructions telling the model where to look for prerequisites and professor names within the chunk text.
+- *What I changed or overrode:* I retained the strict fallback response ("I don't have enough information on that based on the available course data.") as a hard guardrail for genuinely unanswerable queries, and kept `temperature=0.1` rather than raising it — prioritizing faithfulness to the retrieved context over fluency, which is the correct tradeoff for a grounded RAG system.
 
-- *What I gave the AI:*
-- *What it produced:*
-- *What I changed or overrode:*
 
 **Instance 2**
+- *What I gave the AI:* Sample entries from each of my five JSON files (`catalog_courses.json`, `uicgrades_data.json`, `easy_courses_data.json`, `professor_data.json`, `uloop_professors.json`) alongside the ingestion pipeline that was producing empty or incorrect chunks.
+- *What it produced:* A rewritten `extract_texts()` function with a dedicated extractor branch for each source, matched precisely to the actual key structure and value format of each JSON. Notably it identified that `easy_courses_data.json` stored the entire department ranking list under every course key, causing duplicate chunk IDs in ChromaDB, and fixed it by deduplicating on department prefix rather than text content.
+- *What I changed or overrode:* I directed the AI to verify each extractor against the real JSON samples I provided rather than inferring structure from the scraper code alone — catching mismatches that would have silently produced empty embeddings without any error message, which is a particularly subtle failure mode in RAG pipelines.
 
-- *What I gave the AI:*
-- *What it produced:*
-- *What I changed or overrode:*
+## Demo
+
+https://app.screencastify.com/watch/KfbMFnBumKKQPAwCm3wL
